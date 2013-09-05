@@ -23,6 +23,268 @@
 		CC898F5317B45502004C6C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC898F2E17B45502004C6C2D /* Foundation.framework */; };
 		CC898F5B17B45502004C6C2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC898F5917B45502004C6C2D /* InfoPlist.strings */; };
 		CC898F5E17B45502004C6C2D /* BalletSocietyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC898F5D17B45502004C6C2D /* BalletSocietyTests.m */; };
+		CCACEA4B17D6A6C700CECB35 /* CBetterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA4017D6A6C700CECB35 /* CBetterCollectionViewCell.m */; };
+		CCACEA4C17D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA4217D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.m */; };
+		CCACEA4D17D6A6C700CECB35 /* CCoverflowCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA4417D6A6C700CECB35 /* CCoverflowCollectionViewLayout.m */; };
+		CCACEA4E17D6A6C700CECB35 /* CInterpolator.mm in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA4617D6A6C700CECB35 /* CInterpolator.mm */; };
+		CCACEA4F17D6A6C700CECB35 /* CReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA4817D6A6C700CECB35 /* CReflectionView.m */; };
+		CCACEA5017D6A6C700CECB35 /* Interpolator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA4917D6A6C700CECB35 /* Interpolator.cpp */; };
+		CCACEA5317D6A7B400CECB35 /* CCoverflowTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA5217D6A7B400CECB35 /* CCoverflowTitleView.m */; };
+		CCACEA5517D6A7C400CECB35 /* CCoverflowTitleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCACEA5417D6A7C400CECB35 /* CCoverflowTitleView.xib */; };
+		CCACEA5817D6A96B00CECB35 /* CDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA5717D6A96B00CECB35 /* CDemoCollectionViewCell.m */; };
+		CCACEA5A17D6AA4200CECB35 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCACEA5917D6AA4200CECB35 /* AssetsLibrary.framework */; };
+		CCACEA5C17D6AA4900CECB35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCACEA5B17D6AA4900CECB35 /* QuartzCore.framework */; };
+		CCB504FD17BC3A5300B7F433 /* SubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB504FC17BC3A5300B7F433 /* SubjectViewController.m */; };
+		CCB5062517BC3C6D00B7F433 /* 1 - Apollo Instructs a Muse.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050217BC3C6C00B7F433 /* 1 - Apollo Instructs a Muse.png */; };
+		CCB5062617BC3C6D00B7F433 /* 10 - Perspective with Igor Dancing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050317BC3C6C00B7F433 /* 10 - Perspective with Igor Dancing.jpg */; };
+		CCB5062717BC3C6D00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050417BC3C6C00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg */; };
+		CCB5062817BC3C6D00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050517BC3C6C00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG */; };
+		CCB5062917BC3C6D00B7F433 /* 2 - Artemis with Dress and Bow.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050617BC3C6C00B7F433 /* 2 - Artemis with Dress and Bow.png */; };
+		CCB5062A17BC3C6D00B7F433 /* 3 - Apollo Dionysus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050717BC3C6C00B7F433 /* 3 - Apollo Dionysus.jpg */; };
+		CCB5062B17BC3C6D00B7F433 /* 4 - Perugino Apollo Stared Downat Marsyas.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050817BC3C6C00B7F433 /* 4 - Perugino Apollo Stared Downat Marsyas.png */; };
+		CCB5062C17BC3C6D00B7F433 /* 5 - Apollo Bassae Looking West.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050917BC3C6C00B7F433 /* 5 - Apollo Bassae Looking West.png */; };
+		CCB5062D17BC3C6D00B7F433 /* 6 - Interior Basssae Temple with First Corinthian Column Ever .png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050A17BC3C6C00B7F433 /* 6 - Interior Basssae Temple with First Corinthian Column Ever .png */; };
+		CCB5062E17BC3C6D00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050B17BC3C6C00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.png */; };
+		CCB5062F17BC3C6D00B7F433 /* 8 - Palladio Villa Rotunda in Spring.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050C17BC3C6C00B7F433 /* 8 - Palladio Villa Rotunda in Spring.png */; };
+		CCB5063017BC3C6D00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050D17BC3C6C00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg */; };
+		CCB5063117BC3C6D00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5050F17BC3C6C00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg */; };
+		CCB5063217BC3C6D00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051017BC3C6C00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG */; };
+		CCB5063317BC3C6D00B7F433 /* 19BassaeTempleApollo05_jpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051117BC3C6C00B7F433 /* 19BassaeTempleApollo05_jpg.jpg */; };
+		CCB5063417BC3C6D00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051217BC3C6C00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.jpg */; };
+		CCB5063517BC3C6D00B7F433 /* 8 - Palladio Villa Rotunda in Spring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051317BC3C6C00B7F433 /* 8 - Palladio Villa Rotunda in Spring.jpg */; };
+		CCB5063617BC3C6D00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051417BC3C6C00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg */; };
+		CCB5063717BC3C6D00B7F433 /* Apollo and Marsyas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051517BC3C6C00B7F433 /* Apollo and Marsyas.jpg */; };
+		CCB5063817BC3C6D00B7F433 /* Apollo and muse plate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051617BC3C6C00B7F433 /* Apollo and muse plate.jpg */; };
+		CCB5063917BC3C6D00B7F433 /* bassaetempleapollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051717BC3C6C00B7F433 /* bassaetempleapollo.jpg */; };
+		CCB5063A17BC3C6D00B7F433 /* Niobe-Vase-Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051817BC3C6C00B7F433 /* Niobe-Vase-Color.jpg */; };
+		CCB5063B17BC3C6D00B7F433 /* PeplosKoreAsArtemis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051917BC3C6C00B7F433 /* PeplosKoreAsArtemis.jpg */; };
+		CCB5063C17BC3C6D00B7F433 /* perspectiveheart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051A17BC3C6C00B7F433 /* perspectiveheart.jpg */; };
+		CCB5063D17BC3C6D00B7F433 /* sq1_Apollo and Marsyas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051D17BC3C6C00B7F433 /* sq1_Apollo and Marsyas.jpg */; };
+		CCB5063E17BC3C6D00B7F433 /* sq1_Apollo and muse plate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051E17BC3C6C00B7F433 /* sq1_Apollo and muse plate.jpg */; };
+		CCB5063F17BC3C6D00B7F433 /* sq1_Niobe-Vase-Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5051F17BC3C6C00B7F433 /* sq1_Niobe-Vase-Color.jpg */; };
+		CCB5064017BC3C6D00B7F433 /* sq1_Pantheon Interior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052017BC3C6C00B7F433 /* sq1_Pantheon Interior.jpg */; };
+		CCB5064117BC3C6D00B7F433 /* sq1_PeplosKoreAsArtemis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052117BC3C6C00B7F433 /* sq1_PeplosKoreAsArtemis.jpg */; };
+		CCB5064217BC3C6D00B7F433 /* sq2_Apollo and Marsyas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052217BC3C6C00B7F433 /* sq2_Apollo and Marsyas.jpg */; };
+		CCB5064317BC3C6D00B7F433 /* sq2_Apollo and muse plate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052317BC3C6C00B7F433 /* sq2_Apollo and muse plate.jpg */; };
+		CCB5064417BC3C6D00B7F433 /* sq2_Apollon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052417BC3C6C00B7F433 /* sq2_Apollon.jpg */; };
+		CCB5064517BC3C6D00B7F433 /* sq2_euergides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052517BC3C6C00B7F433 /* sq2_euergides.jpg */; };
+		CCB5064617BC3C6D00B7F433 /* sq2_PeplosKoreAsArtemis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052617BC3C6C00B7F433 /* sq2_PeplosKoreAsArtemis.jpg */; };
+		CCB5064717BC3C6D00B7F433 /* sq3_Apollo and Marsyas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052717BC3C6C00B7F433 /* sq3_Apollo and Marsyas.jpg */; };
+		CCB5064817BC3C6D00B7F433 /* sq3_Apollo and muse plate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052817BC3C6C00B7F433 /* sq3_Apollo and muse plate.jpg */; };
+		CCB5064917BC3C6D00B7F433 /* sq3_K5.4BApollon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052917BC3C6C00B7F433 /* sq3_K5.4BApollon.jpg */; };
+		CCB5064A17BC3C6D00B7F433 /* BILL’S CAPTIONS AND LINKS-1.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052B17BC3C6C00B7F433 /* BILL’S CAPTIONS AND LINKS-1.docx */; };
+		CCB5064B17BC3C6D00B7F433 /* BILL’S CAPTIONS AND LINKS.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052D17BC3C6C00B7F433 /* BILL’S CAPTIONS AND LINKS.docx */; };
+		CCB5064C17BC3C6D00B7F433 /* MULLENEDIT.DOC in Resources */ = {isa = PBXBuildFile; fileRef = CCB5052E17BC3C6C00B7F433 /* MULLENEDIT.DOC */; };
+		CCB5064D17BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053117BC3C6C00B7F433 /* FOUR TEXTS FOR TAB APP.docx */; };
+		CCB5064E17BC3C6D00B7F433 /* 1H_PgYKfiBtCo8rPxsofgXyThhLGG3Z_uG8Hrt77x8w.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053317BC3C6C00B7F433 /* 1H_PgYKfiBtCo8rPxsofgXyThhLGG3Z_uG8Hrt77x8w.jpg */; };
+		CCB5064F17BC3C6D00B7F433 /* 3 - Lethal Arrows of Apollo and Artemis  .png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053417BC3C6C00B7F433 /* 3 - Lethal Arrows of Apollo and Artemis  .png */; };
+		CCB5065017BC3C6D00B7F433 /* 301568.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053517BC3C6C00B7F433 /* 301568.jpg */; };
+		CCB5065117BC3C6D00B7F433 /* 785px-Giovanni_Paolo_Panini_-_Interior_of_the_Pantheon,_Rome_-_Google_Art_Project.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053617BC3C6C00B7F433 /* 785px-Giovanni_Paolo_Panini_-_Interior_of_the_Pantheon,_Rome_-_Google_Art_Project.jpg */; };
+		CCB5065217BC3C6D00B7F433 /* 8A-Niobe-Vase-Color.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053717BC3C6C00B7F433 /* 8A-Niobe-Vase-Color.jpg */; };
+		CCB5065317BC3C6D00B7F433 /* 95797-004-AEE7105D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053817BC3C6C00B7F433 /* 95797-004-AEE7105D.jpg */; };
+		CCB5065417BC3C6D00B7F433 /* Apollo and Muse.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053917BC3C6C00B7F433 /* Apollo and Muse.jpeg */; };
+		CCB5065517BC3C6D00B7F433 /* apollo parnopios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053A17BC3C6C00B7F433 /* apollo parnopios.jpg */; };
+		CCB5065617BC3C6D00B7F433 /* apollo propios phidias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053B17BC3C6C00B7F433 /* apollo propios phidias.jpg */; };
+		CCB5065717BC3C6D00B7F433 /* Apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053C17BC3C6C00B7F433 /* Apollo.jpg */; };
+		CCB5065817BC3C6D00B7F433 /* Apollo_lew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053D17BC3C6C00B7F433 /* Apollo_lew.jpg */; };
+		CCB5065917BC3C6D00B7F433 /* Artemis Peplos Kore 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053E17BC3C6C00B7F433 /* Artemis Peplos Kore 2.jpeg */; };
+		CCB5065A17BC3C6D00B7F433 /* Baassae with view.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5053F17BC3C6C00B7F433 /* Baassae with view.jpeg */; };
+		CCB5065B17BC3C6D00B7F433 /* Balanchine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054017BC3C6C00B7F433 /* Balanchine.jpg */; };
+		CCB5065C17BC3C6D00B7F433 /* Bassae Plan and Interior.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054117BC3C6C00B7F433 /* Bassae Plan and Interior.jpeg */; };
+		CCB5065D17BC3C6D00B7F433 /* bassae1347821521065.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054217BC3C6C00B7F433 /* bassae1347821521065.jpg */; };
+		CCB5065E17BC3C6D00B7F433 /* c30278-5_Moz_Whel_kids1r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054317BC3C6C00B7F433 /* c30278-5_Moz_Whel_kids1r.jpg */; };
+		CCB5065F17BC3C6D00B7F433 /* CqZH8QYmsmfrdI2Oi8v1l3ADbn2k8GJRgVaxNch9dLk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054417BC3C6C00B7F433 /* CqZH8QYmsmfrdI2Oi8v1l3ADbn2k8GJRgVaxNch9dLk.jpg */; };
+		CCB5066017BC3C6D00B7F433 /* Death Darts of Artemis and Apollo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054517BC3C6C00B7F433 /* Death Darts of Artemis and Apollo.jpeg */; };
+		CCB5066117BC3C6D00B7F433 /* euergides-2b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054617BC3C6C00B7F433 /* euergides-2b.jpg */; };
+		CCB5066217BC3C6D00B7F433 /* Farrell Mozartian children.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054717BC3C6C00B7F433 /* Farrell Mozartian children.jpeg */; };
+		CCB5066317BC3C6D00B7F433 /* Farrell Mozartiana.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054817BC3C6D00B7F433 /* Farrell Mozartiana.jpeg */; };
+		CCB5066417BC3C6D00B7F433 /* farrell mozartiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054917BC3C6D00B7F433 /* farrell mozartiana.jpg */; };
+		CCB5066517BC3C6D00B7F433 /* Farrell young with Mr B.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054A17BC3C6D00B7F433 /* Farrell young with Mr B.jpeg */; };
+		CCB5066617BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.pages in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054B17BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.pages */; };
+		CCB5066717BC3C6D00B7F433 /* getimage-idx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054C17BC3C6D00B7F433 /* getimage-idx.jpg */; };
+		CCB5066817BC3C6D00B7F433 /* Gold Apollo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054D17BC3C6D00B7F433 /* Gold Apollo.jpeg */; };
+		CCB5066917BC3C6D00B7F433 /* gold apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054E17BC3C6D00B7F433 /* gold apollo.jpg */; };
+		CCB5066A17BC3C6D00B7F433 /* images.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5054F17BC3C6D00B7F433 /* images.jpg */; };
+		CCB5066B17BC3C6D00B7F433 /* Interior_of_the_Pantheon,_Rome_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055017BC3C6D00B7F433 /* Interior_of_the_Pantheon,_Rome_.jpg */; };
+		CCB5066C17BC3C6D00B7F433 /* JGoZvxp7I8_qf8Wnj8PJv2pSdj-udjDjBZcSiY7pcBI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055117BC3C6D00B7F433 /* JGoZvxp7I8_qf8Wnj8PJv2pSdj-udjDjBZcSiY7pcBI.jpg */; };
+		CCB5066D17BC3C6D00B7F433 /* k0ufufWW-zaex7zhAOHBOS6k-mOGsHN2HhtTdFFIAO8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055217BC3C6D00B7F433 /* k0ufufWW-zaex7zhAOHBOS6k-mOGsHN2HhtTdFFIAO8.jpg */; };
+		CCB5066E17BC3C6D00B7F433 /* K5.4Apollon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055317BC3C6D00B7F433 /* K5.4Apollon.jpg */; };
+		CCB5066F17BC3C6D00B7F433 /* K5.4BApollon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055417BC3C6D00B7F433 /* K5.4BApollon.jpg */; };
+		CCB5067017BC3C6D00B7F433 /* kasseler_apoll_gercke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055517BC3C6D00B7F433 /* kasseler_apoll_gercke.jpg */; };
+		CCB5067117BC3C6D00B7F433 /* Larotonda2009-640x360.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055617BC3C6D00B7F433 /* Larotonda2009-640x360.jpg */; };
+		CCB5067217BC3C6D00B7F433 /* mozartiana_ananiashvili_preghiera_600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055717BC3C6D00B7F433 /* mozartiana_ananiashvili_preghiera_600.jpg */; };
+		CCB5067317BC3C6D00B7F433 /* NE_WET7kxPiy1XDSlHVE5VM260NUKnRnCNqaoVRCAyw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055817BC3C6D00B7F433 /* NE_WET7kxPiy1XDSlHVE5VM260NUKnRnCNqaoVRCAyw.jpg */; };
+		CCB5067417BC3C6D00B7F433 /* Npuy11CHnDPPpy7eNqmOg_TFmSFFnZ8nv8xiy3eNGv8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055917BC3C6D00B7F433 /* Npuy11CHnDPPpy7eNqmOg_TFmSFFnZ8nv8xiy3eNGv8.jpg */; };
+		CCB5067517BC3C6D00B7F433 /* oX41ZQswtck9V9w2_Nphkh4gI1HHbb1MmHlVpJBs6hE.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055A17BC3C6D00B7F433 /* oX41ZQswtck9V9w2_Nphkh4gI1HHbb1MmHlVpJBs6hE.jpg */; };
+		CCB5067617BC3C6D00B7F433 /* Pantheon Interior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055B17BC3C6D00B7F433 /* Pantheon Interior.jpg */; };
+		CCB5067717BC3C6D00B7F433 /* perspectiveheart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055C17BC3C6D00B7F433 /* perspectiveheart.jpg */; };
+		CCB5067817BC3C6D00B7F433 /* Perugino Apollo and Marsyas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055D17BC3C6D00B7F433 /* Perugino Apollo and Marsyas.jpeg */; };
+		CCB5067917BC3C6D00B7F433 /* pFEBVhY6KcQnhDvq-rGStDrK3-sa26tlt5wyUSfMaIY.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055E17BC3C6D00B7F433 /* pFEBVhY6KcQnhDvq-rGStDrK3-sa26tlt5wyUSfMaIY.jpg */; };
+		CCB5067A17BC3C6D00B7F433 /* pUvLCpCMF5eJU0YiJGh_K3Os58YxYrkvH07Hmi3C41c.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5055F17BC3C6D00B7F433 /* pUvLCpCMF5eJU0YiJGh_K3Os58YxYrkvH07Hmi3C41c.jpg */; };
+		CCB5067B17BC3C6D00B7F433 /* r0G2HVwp1cmAgeSHlokZDhdZ4dTmI2oWqlUGDFw_C4g.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056017BC3C6D00B7F433 /* r0G2HVwp1cmAgeSHlokZDhdZ4dTmI2oWqlUGDFw_C4g.jpg */; };
+		CCB5067C17BC3C6D00B7F433 /* sq1_apollo propios phidias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056117BC3C6D00B7F433 /* sq1_apollo propios phidias.jpg */; };
+		CCB5067D17BC3C6D00B7F433 /* sq1_Balanchine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056217BC3C6D00B7F433 /* sq1_Balanchine.jpg */; };
+		CCB5067E17BC3C6D00B7F433 /* sq1_euergides.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056317BC3C6D00B7F433 /* sq1_euergides.jpg */; };
+		CCB5067F17BC3C6D00B7F433 /* sq1_farrell mozartiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056417BC3C6D00B7F433 /* sq1_farrell mozartiana.jpg */; };
+		CCB5068017BC3C6D00B7F433 /* sq1_Villa_Rotonda_front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056517BC3C6D00B7F433 /* sq1_Villa_Rotonda_front.jpg */; };
+		CCB5068117BC3C6D00B7F433 /* sq2_farrell mozartiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056617BC3C6D00B7F433 /* sq2_farrell mozartiana.jpg */; };
+		CCB5068217BC3C6D00B7F433 /* sq2_villa rotonda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056717BC3C6D00B7F433 /* sq2_villa rotonda.jpg */; };
+		CCB5068317BC3C6D00B7F433 /* sq3_farrell mozartiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056817BC3C6D00B7F433 /* sq3_farrell mozartiana.jpg */; };
+		CCB5068417BC3C6D00B7F433 /* sq4_farrell mozartiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056917BC3C6D00B7F433 /* sq4_farrell mozartiana.jpg */; };
+		CCB5068517BC3C6D00B7F433 /* sq5_farrell mozartiana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056A17BC3C6D00B7F433 /* sq5_farrell mozartiana.jpg */; };
+		CCB5068617BC3C6D00B7F433 /* terracotta kylix .jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056B17BC3C6D00B7F433 /* terracotta kylix .jpg */; };
+		CCB5068717BC3C6D00B7F433 /* unidentified_kylix_apollo_and_muse.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056C17BC3C6D00B7F433 /* unidentified_kylix_apollo_and_muse.gif */; };
+		CCB5068817BC3C6D00B7F433 /* Villa Rotonda with trees.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056D17BC3C6D00B7F433 /* Villa Rotonda with trees.JPG */; };
+		CCB5068917BC3C6D00B7F433 /* villa rotonda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056E17BC3C6D00B7F433 /* villa rotonda.jpg */; };
+		CCB5068A17BC3C6D00B7F433 /* Villa_Rotonda_front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5056F17BC3C6D00B7F433 /* Villa_Rotonda_front.jpg */; };
+		CCB5068B17BC3C6D00B7F433 /* VillaRotondaOut-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057017BC3C6D00B7F433 /* VillaRotondaOut-1.jpg */; };
+		CCB5068C17BC3C6D00B7F433 /* w6x1I9JgxMSKosAzmXPPXVEVV-xk8MY0GhFIxC3Fyz4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057117BC3C6D00B7F433 /* w6x1I9JgxMSKosAzmXPPXVEVV-xk8MY0GhFIxC3Fyz4.jpg */; };
+		CCB5068D17BC3C6D00B7F433 /* Z3zcFt_aHXPLOQzZ7f_z_d3FhS8TxC11qtX8nSqj_y8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057217BC3C6D00B7F433 /* Z3zcFt_aHXPLOQzZ7f_z_d3FhS8TxC11qtX8nSqj_y8.jpg */; };
+		CCB5068E17BC3C6D00B7F433 /* apollo and kalliope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057517BC3C6D00B7F433 /* apollo and kalliope.jpg */; };
+		CCB5068F17BC3C6D00B7F433 /* apollo musagete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057617BC3C6D00B7F433 /* apollo musagete.jpg */; };
+		CCB5069017BC3C6D00B7F433 /* balanchine 1920s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057717BC3C6D00B7F433 /* balanchine 1920s.jpg */; };
+		CCB5069117BC3C6D00B7F433 /* Ballets_Russes_Apollon_1928.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057817BC3C6D00B7F433 /* Ballets_Russes_Apollon_1928.jpg */; };
+		CCB5069217BC3C6D00B7F433 /* abt logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057A17BC3C6D00B7F433 /* abt logo.jpg */; };
+		CCB5069317BC3C6D00B7F433 /* artemis and apollo copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057B17BC3C6D00B7F433 /* artemis and apollo copy.jpg */; };
+		CCB5069417BC3C6D00B7F433 /* artemis and apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057C17BC3C6D00B7F433 /* artemis and apollo.jpg */; };
+		CCB5069517BC3C6D00B7F433 /* julie kent artemis lar lubavitch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057D17BC3C6D00B7F433 /* julie kent artemis lar lubavitch.jpg */; };
+		CCB5069617BC3C6D00B7F433 /* lar_lubovitch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057E17BC3C6D00B7F433 /* lar_lubovitch.jpg */; };
+		CCB5069717BC3C6D00B7F433 /* parthenon illustration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5057F17BC3C6D00B7F433 /* parthenon illustration.jpg */; };
+		CCB5069817BC3C6D00B7F433 /* apollo and dionysus.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058117BC3C6D00B7F433 /* apollo and dionysus.pdf */; };
+		CCB5069917BC3C6D00B7F433 /* apollo instructs a muse.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058217BC3C6D00B7F433 /* apollo instructs a muse.pdf */; };
+		CCB5069A17BC3C6D00B7F433 /* artemis with dress and bow.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058317BC3C6D00B7F433 /* artemis with dress and bow.pdf */; };
+		CCB5069B17BC3C6D00B7F433 /* attic dionysus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058417BC3C6D00B7F433 /* attic dionysus.jpg */; };
+		CCB5069C17BC3C6D00B7F433 /* dionysus lausanne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058517BC3C6D00B7F433 /* dionysus lausanne.jpg */; };
+		CCB5069D17BC3C6D00B7F433 /* parthenon illustration.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058617BC3C6D00B7F433 /* parthenon illustration.jpg */; };
+		CCB5069E17BC3C6D00B7F433 /* pavlova in dionysus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058717BC3C6D00B7F433 /* pavlova in dionysus.jpg */; };
+		CCB5069F17BC3C6D00B7F433 /* 1 duncan low orginal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058B17BC3C6D00B7F433 /* 1 duncan low orginal.jpg */; };
+		CCB506A017BC3C6D00B7F433 /* 1 Isadora_duncan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058C17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg */; };
+		CCB506A117BC3C6D00B7F433 /* 10 Shiva as Nataraja .jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058D17BC3C6D00B7F433 /* 10 Shiva as Nataraja .jpg */; };
+		CCB506A217BC3C6D00B7F433 /* 11 temple minerva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058E17BC3C6D00B7F433 /* 11 temple minerva.jpg */; };
+		CCB506A317BC3C6D00B7F433 /* 2 nureyev source.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5058F17BC3C6D00B7F433 /* 2 nureyev source.png */; };
+		CCB506A417BC3C6D00B7F433 /* 2 nureyev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059017BC3C6D00B7F433 /* 2 nureyev.jpg */; };
+		CCB506A517BC3C6D00B7F433 /* 2.04.round.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059217BC3C6D00B7F433 /* 2.04.round.jpg */; };
+		CCB506A617BC3C6D00B7F433 /* 6a00d8341c4e3853ef010535c9c8c2970b-800wi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059317BC3C6D00B7F433 /* 6a00d8341c4e3853ef010535c9c8c2970b-800wi.jpg */; };
+		CCB506A717BC3C6D00B7F433 /* julia kent juliet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059417BC3C6D00B7F433 /* julia kent juliet.jpg */; };
+		CCB506A817BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.27.51 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059517BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.27.51 PM.png */; };
+		CCB506A917BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.30.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059617BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.30.35 PM.png */; };
+		CCB506AA17BC3C6D00B7F433 /* 4 Apollo Peter&Suzanne2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059717BC3C6D00B7F433 /* 4 Apollo Peter&Suzanne2.jpg */; };
+		CCB506AB17BC3C6D00B7F433 /* 5 taglioni.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059817BC3C6D00B7F433 /* 5 taglioni.png */; };
+		CCB506AC17BC3C6D00B7F433 /* 6 arabesque low res.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059917BC3C6D00B7F433 /* 6 arabesque low res.jpg */; };
+		CCB506AD17BC3C6D00B7F433 /* 7 impressing the czar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059A17BC3C6D00B7F433 /* 7 impressing the czar.jpg */; };
+		CCB506AE17BC3C6D00B7F433 /* 8 indian dancer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059B17BC3C6D00B7F433 /* 8 indian dancer.jpg */; };
+		CCB506AF17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059D17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg */; };
+		CCB506B017BC3C6D00B7F433 /* 1 IsadoraDuncan572.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059E17BC3C6D00B7F433 /* 1 IsadoraDuncan572.jpg */; };
+		CCB506B117BC3C6D00B7F433 /* 11 Minerva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5059F17BC3C6D00B7F433 /* 11 Minerva.jpg */; };
+		CCB506B217BC3C6D00B7F433 /* 12 noh.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A017BC3C6D00B7F433 /* 12 noh.png */; };
+		CCB506B317BC3C6D00B7F433 /* 7 impressczar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A117BC3C6D00B7F433 /* 7 impressczar.jpg */; };
+		CCB506B417BC3C6D00B7F433 /* 8 Saisanthosh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A217BC3C6D00B7F433 /* 8 Saisanthosh.jpg */; };
+		CCB506B517BC3C6D00B7F433 /* 9 equestrian source.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A317BC3C6D00B7F433 /* 9 equestrian source.png */; };
+		CCB506B617BC3C6D00B7F433 /* 9 equestrian.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A417BC3C6D00B7F433 /* 9 equestrian.png */; };
+		CCB506B717BC3C6D00B7F433 /* Apollo Peter&Suzanne2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A517BC3C6D00B7F433 /* Apollo Peter&Suzanne2.jpg */; };
+		CCB506B817BC3C6D00B7F433 /* equestrian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A617BC3C6D00B7F433 /* equestrian.jpg */; };
+		CCB506B917BC3C6D00B7F433 /* equestrian.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A717BC3C6D00B7F433 /* equestrian.png */; };
+		CCB506BA17BC3C6D00B7F433 /* impressczar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A817BC3C6D00B7F433 /* impressczar.jpg */; };
+		CCB506BB17BC3C6D00B7F433 /* julia kent ondine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505A917BC3C6D00B7F433 /* julia kent ondine.jpg */; };
+		CCB506BC17BC3C6D00B7F433 /* Julie Kent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505AA17BC3C6D00B7F433 /* Julie Kent.jpg */; };
+		CCB506BD17BC3C6D00B7F433 /* maria taglioni litho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505AB17BC3C6D00B7F433 /* maria taglioni litho.jpg */; };
+		CCB506BE17BC3C6D00B7F433 /* noh actor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505AC17BC3C6D00B7F433 /* noh actor.jpg */; };
+		CCB506BF17BC3C6D00B7F433 /* noh dancer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505AD17BC3C6D00B7F433 /* noh dancer.jpg */; };
+		CCB506C017BC3C6D00B7F433 /* nureyev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505AE17BC3C6D00B7F433 /* nureyev.jpg */; };
+		CCB506C117BC3C6D00B7F433 /* Saisanthosh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505AF17BC3C6D00B7F433 /* Saisanthosh.jpg */; };
+		CCB506C217BC3C6D00B7F433 /* Shiva as Nataraja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B017BC3C6D00B7F433 /* Shiva as Nataraja.jpg */; };
+		CCB506C317BC3C6D00B7F433 /* 1 Isadora_duncan large square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B317BC3C6D00B7F433 /* 1 Isadora_duncan large square.jpg */; };
+		CCB506C417BC3C6D00B7F433 /* 1 square isadora_duncan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B417BC3C6D00B7F433 /* 1 square isadora_duncan.jpg */; };
+		CCB506C517BC3C6D00B7F433 /* 10 square Shiva as Nataraja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B517BC3C6D00B7F433 /* 10 square Shiva as Nataraja.jpg */; };
+		CCB506C617BC3C6D00B7F433 /* 11 square Minerva.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B617BC3C6D00B7F433 /* 11 square Minerva.jpg */; };
+		CCB506C717BC3C6D00B7F433 /* 2 square nureyev.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B717BC3C6D00B7F433 /* 2 square nureyev.jpg */; };
+		CCB506C817BC3C6D00B7F433 /* 4 peter and suzanne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B817BC3C6D00B7F433 /* 4 peter and suzanne.jpg */; };
+		CCB506C917BC3C6D00B7F433 /* 5 square maria taglioni litho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505B917BC3C6D00B7F433 /* 5 square maria taglioni litho.jpg */; };
+		CCB506CA17BC3C6D00B7F433 /* 6 square arabesque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505BA17BC3C6D00B7F433 /* 6 square arabesque.jpg */; };
+		CCB506CB17BC3C6D00B7F433 /* 7 square impressczar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505BB17BC3C6D00B7F433 /* 7 square impressczar.jpg */; };
+		CCB506CC17BC3C6D00B7F433 /* 8 square Saisanthosh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505BC17BC3C6D00B7F433 /* 8 square Saisanthosh.jpg */; };
+		CCB506CD17BC3C6D00B7F433 /* 9 square equestrian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505BD17BC3C6D00B7F433 /* 9 square equestrian.jpg */; };
+		CCB506CE17BC3C6D00B7F433 /* julie kent juliet cropped square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505BE17BC3C6D00B7F433 /* julie kent juliet cropped square.jpg */; };
+		CCB506CF17BC3C6D00B7F433 /* julie kent juliet square.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505BF17BC3C6D00B7F433 /* julie kent juliet square.jpg */; };
+		CCB506D017BC3C6D00B7F433 /* julie kent juliet.tiff in Resources */ = {isa = PBXBuildFile; fileRef = CCB505C017BC3C6D00B7F433 /* julie kent juliet.tiff */; };
+		CCB506D117BC3C6D00B7F433 /* sq Julie Kent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505C217BC3C6D00B7F433 /* sq Julie Kent.jpg */; };
+		CCB506D217BC3C6D00B7F433 /* square Julie Kent.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505C317BC3C6D00B7F433 /* square Julie Kent.jpg */; };
+		CCB506D317BC3C6D00B7F433 /* square noh actor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505C417BC3C6D00B7F433 /* square noh actor.jpg */; };
+		CCB506D417BC3C6D00B7F433 /* conv 2 captions  in Resources */ = {isa = PBXBuildFile; fileRef = CCB505C717BC3C6D00B7F433 /* conv 2 captions  */; };
+		CCB506D517BC3C6D00B7F433 /* APP TEXTS-1.DOC in Resources */ = {isa = PBXBuildFile; fileRef = CCB505CB17BC3C6D00B7F433 /* APP TEXTS-1.DOC */; };
+		CCB506D617BC3C6D00B7F433 /* APP TEXTS.DOC in Resources */ = {isa = PBXBuildFile; fileRef = CCB505CC17BC3C6D00B7F433 /* APP TEXTS.DOC */; };
+		CCB506D717BC3C6D00B7F433 /* conv 2 texts JH.pdf in Resources */ = {isa = PBXBuildFile; fileRef = CCB505CD17BC3C6D00B7F433 /* conv 2 texts JH.pdf */; };
+		CCB506D817BC3C6D00B7F433 /* 12 noh actor.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB505D017BC3C6D00B7F433 /* 12 noh actor.png */; };
+		CCB506D917BC3C6D00B7F433 /* conv 2 composite.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505D117BC3C6D00B7F433 /* conv 2 composite.jpg */; };
+		CCB506DA17BC3C6D00B7F433 /* Julie Kent.png in Resources */ = {isa = PBXBuildFile; fileRef = CCB505D217BC3C6D00B7F433 /* Julie Kent.png */; };
+		CCB506DB17BC3C6D00B7F433 /* conv2 spiral composed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505D417BC3C6D00B7F433 /* conv2 spiral composed.jpg */; };
+		CCB506DC17BC3C6D00B7F433 /* conv2 spiral composed.psd in Resources */ = {isa = PBXBuildFile; fileRef = CCB505D517BC3C6D00B7F433 /* conv2 spiral composed.psd */; };
+		CCB506DD17BC3C6D00B7F433 /* 1-Greek_vase_with_different_sportsmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505D917BC3C6D00B7F433 /* 1-Greek_vase_with_different_sportsmen.jpg */; };
+		CCB506DE17BC3C6D00B7F433 /* 10-GB&LK with Lyres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505DA17BC3C6D00B7F433 /* 10-GB&LK with Lyres.jpg */; };
+		CCB506DF17BC3C6D00B7F433 /* 11-Diana_Adams_and_Arthur_Mitchell_rehearsing_Agon-1_Martha Swope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505DB17BC3C6D00B7F433 /* 11-Diana_Adams_and_Arthur_Mitchell_rehearsing_Agon-1_Martha Swope.jpg */; };
+		CCB506E017BC3C6D00B7F433 /* 12-Degas-three-dancers-in-an-exercise-hall.jpg!HalfHD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505DC17BC3C6D00B7F433 /* 12-Degas-three-dancers-in-an-exercise-hall.jpg!HalfHD.jpg */; };
+		CCB506E117BC3C6D00B7F433 /* 2-Belvedere_Apollo_Pio-Clementino_Inv1015.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505DD17BC3C6D00B7F433 /* 2-Belvedere_Apollo_Pio-Clementino_Inv1015.jpg */; };
+		CCB506E217BC3C6D00B7F433 /* 3-Da_Vinci_Vitruvian_Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505DE17BC3C6D00B7F433 /* 3-Da_Vinci_Vitruvian_Man.jpg */; };
+		CCB506E317BC3C6D00B7F433 /* 4-POUSSIN-dance-to-the-music-of-time-1634.jpg!Blog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505DF17BC3C6D00B7F433 /* 4-POUSSIN-dance-to-the-music-of-time-1634.jpg!Blog.jpg */; };
+		CCB506E417BC3C6D00B7F433 /* 5-Louis Apollo_Soleil_bis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E017BC3C6D00B7F433 /* 5-Louis Apollo_Soleil_bis.jpg */; };
+		CCB506E517BC3C6D00B7F433 /* 6-Five_positions_of_dancing_Wilson_1811.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E117BC3C6D00B7F433 /* 6-Five_positions_of_dancing_Wilson_1811.jpg */; };
+		CCB506E617BC3C6D00B7F433 /* 7-Mercury da Bologna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E217BC3C6D00B7F433 /* 7-Mercury da Bologna.jpg */; };
+		CCB506E717BC3C6D00B7F433 /* 7-Tallchief in Attitude-Swan Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E317BC3C6D00B7F433 /* 7-Tallchief in Attitude-Swan Lake.jpg */; };
+		CCB506E817BC3C6D00B7F433 /* 8-DiaghilevStravinsky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E417BC3C6D00B7F433 /* 8-DiaghilevStravinsky.jpg */; };
+		CCB506E917BC3C6D00B7F433 /* 9-Nijinsky_faun_carrying_scarf_Baron_de_Meyer_1912.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E517BC3C6D00B7F433 /* 9-Nijinsky_faun_carrying_scarf_Baron_de_Meyer_1912.jpg */; };
+		CCB506EA17BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E717BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen copy.jpg */; };
+		CCB506EB17BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E817BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen.jpg */; };
+		CCB506EC17BC3C6D00B7F433 /* 10 GB&LK with Lyres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505E917BC3C6D00B7F433 /* 10 GB&LK with Lyres.jpg */; };
+		CCB506ED17BC3C6D00B7F433 /* 11 adams mitchell agon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505EA17BC3C6D00B7F433 /* 11 adams mitchell agon.jpg */; };
+		CCB506EE17BC3C6D00B7F433 /* 12 degas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505EB17BC3C6D00B7F433 /* 12 degas.jpg */; };
+		CCB506EF17BC3C6D00B7F433 /* 12 degas.psd in Resources */ = {isa = PBXBuildFile; fileRef = CCB505EC17BC3C6D00B7F433 /* 12 degas.psd */; };
+		CCB506F017BC3C6D00B7F433 /* 2 Belvedere_Apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505ED17BC3C6D00B7F433 /* 2 Belvedere_Apollo.jpg */; };
+		CCB506F117BC3C6D00B7F433 /* 3 Da_Vinci_Vitruvian_Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505EE17BC3C6D00B7F433 /* 3 Da_Vinci_Vitruvian_Man.jpg */; };
+		CCB506F217BC3C6D00B7F433 /* 4 POUSSIN-dance-to-the-music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505EF17BC3C6D00B7F433 /* 4 POUSSIN-dance-to-the-music.jpg */; };
+		CCB506F317BC3C6D00B7F433 /* 5 Louis Apollo_Soleil_bis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F017BC3C6D00B7F433 /* 5 Louis Apollo_Soleil_bis.jpg */; };
+		CCB506F417BC3C6D00B7F433 /* 6 Five_positions_of_dancing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F117BC3C6D00B7F433 /* 6 Five_positions_of_dancing.jpg */; };
+		CCB506F517BC3C6D00B7F433 /* 7 tallchief and mercury.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F217BC3C6D00B7F433 /* 7 tallchief and mercury.jpg */; };
+		CCB506F617BC3C6D00B7F433 /* 7 tallchief and mercury.psd in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F317BC3C6D00B7F433 /* 7 tallchief and mercury.psd */; };
+		CCB506F717BC3C6D00B7F433 /* 8 nijinsky faun 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F417BC3C6D00B7F433 /* 8 nijinsky faun 2.jpg */; };
+		CCB506F817BC3C6D00B7F433 /* 9 diaghilev_and_stravinsky_spain_1921.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F517BC3C6D00B7F433 /* 9 diaghilev_and_stravinsky_spain_1921.jpg */; };
+		CCB506F917BC3C6D00B7F433 /* Mercury da Bologna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F717BC3C6D00B7F433 /* Mercury da Bologna.jpg */; };
+		CCB506FA17BC3C6D00B7F433 /* Tallchief Swan Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505F817BC3C6D00B7F433 /* Tallchief Swan Lake.jpg */; };
+		CCB506FB17BC3C6D00B7F433 /* cr1 Apollo-lew christensen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505FB17BC3C6D00B7F433 /* cr1 Apollo-lew christensen.jpg */; };
+		CCB506FC17BC3C6D00B7F433 /* cr1 Belvedere_Apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505FC17BC3C6D00B7F433 /* cr1 Belvedere_Apollo.jpg */; };
+		CCB506FD17BC3C6D00B7F433 /* cr1 Bernini-Apollo-Daphne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505FD17BC3C6D00B7F433 /* cr1 Bernini-Apollo-Daphne.jpg */; };
+		CCB506FE17BC3C6D00B7F433 /* cr1 Five_positions_of_dancing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505FE17BC3C6D00B7F433 /* cr1 Five_positions_of_dancing.jpg */; };
+		CCB506FF17BC3C6D00B7F433 /* cr1 Louis Apollo_Soleil_bis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB505FF17BC3C6D00B7F433 /* cr1 Louis Apollo_Soleil_bis.jpg */; };
+		CCB5070017BC3C6D00B7F433 /* cr1 POUSSIN-dance-to-the-music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060017BC3C6D00B7F433 /* cr1 POUSSIN-dance-to-the-music.jpg */; };
+		CCB5070117BC3C6D00B7F433 /* cr1nijinsky-faun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060117BC3C6D00B7F433 /* cr1nijinsky-faun.jpg */; };
+		CCB5070217BC3C6D00B7F433 /* cr2 Belvedere_Apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060217BC3C6D00B7F433 /* cr2 Belvedere_Apollo.jpg */; };
+		CCB5070317BC3C6D00B7F433 /* cr2 Bernini-Apollo-Daphne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060317BC3C6D00B7F433 /* cr2 Bernini-Apollo-Daphne.jpg */; };
+		CCB5070417BC3C6D00B7F433 /* cr2 Louis Apollo_Soleil_bis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060417BC3C6D00B7F433 /* cr2 Louis Apollo_Soleil_bis.jpg */; };
+		CCB5070517BC3C6D00B7F433 /* cr2 POUSSIN-dance-to-the-music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060517BC3C6D00B7F433 /* cr2 POUSSIN-dance-to-the-music.jpg */; };
+		CCB5070617BC3C6D00B7F433 /* cr3 Louis Apollo_Soleil_bis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060617BC3C6D00B7F433 /* cr3 Louis Apollo_Soleil_bis.jpg */; };
+		CCB5070717BC3C6D00B7F433 /* sq adams mitchell agon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060717BC3C6D00B7F433 /* sq adams mitchell agon.jpg */; };
+		CCB5070817BC3C6D00B7F433 /* sq Mercury da Bologna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060817BC3C6D00B7F433 /* sq Mercury da Bologna.jpg */; };
+		CCB5070917BC3C6D00B7F433 /* sqdegas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060917BC3C6D00B7F433 /* sqdegas.jpg */; };
+		CCB5070A17BC3C6D00B7F433 /* square Apollo-lew christensen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060A17BC3C6D00B7F433 /* square Apollo-lew christensen.jpg */; };
+		CCB5070B17BC3C6D00B7F433 /* square Apollo-Terpsichore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060B17BC3C6D00B7F433 /* square Apollo-Terpsichore.jpg */; };
+		CCB5070C17BC3C6D00B7F433 /* square Belvedere_Apollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060C17BC3C6D00B7F433 /* square Belvedere_Apollo.jpg */; };
+		CCB5070D17BC3C6D00B7F433 /* square Bernini-Apollo-Daphne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060D17BC3C6D00B7F433 /* square Bernini-Apollo-Daphne.jpg */; };
+		CCB5070E17BC3C6D00B7F433 /* square Da_Vinci_Vitruvian_Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060E17BC3C6D00B7F433 /* square Da_Vinci_Vitruvian_Man.jpg */; };
+		CCB5070F17BC3C6D00B7F433 /* square Five_positions_of_dancing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5060F17BC3C6D00B7F433 /* square Five_positions_of_dancing.jpg */; };
+		CCB5071017BC3C6D00B7F433 /* square Louis Apollo_Soleil_bis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061017BC3C6D00B7F433 /* square Louis Apollo_Soleil_bis.jpg */; };
+		CCB5071117BC3C6D00B7F433 /* square nijinsky-faun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061117BC3C6D00B7F433 /* square nijinsky-faun.jpg */; };
+		CCB5071217BC3C6D00B7F433 /* square POUSSIN-dance-to-the-music.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061217BC3C6D00B7F433 /* square POUSSIN-dance-to-the-music.jpg */; };
+		CCB5071317BC3C6D00B7F433 /* squareTallchief Swan Lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061317BC3C6D00B7F433 /* squareTallchief Swan Lake.jpg */; };
+		CCB5071417BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links-1.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061617BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links-1.docx */; };
+		CCB5071517BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061817BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links.docx */; };
+		CCB5071617BC3C6D00B7F433 /* TEXTS -APP 1-convo 3-1.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061B17BC3C6D00B7F433 /* TEXTS -APP 1-convo 3-1.docx */; };
+		CCB5071717BC3C6D00B7F433 /* TEXTS -APP 1-convo 3.docx in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061D17BC3C6D00B7F433 /* TEXTS -APP 1-convo 3.docx */; };
+		CCB5071817BC3C6D00B7F433 /* Apollo-lew christensen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5061F17BC3C6D00B7F433 /* Apollo-lew christensen.jpg */; };
+		CCB5071917BC3C6D00B7F433 /* Apollo-Terpsichore.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5062017BC3C6D00B7F433 /* Apollo-Terpsichore.jpg */; };
+		CCB5071A17BC3C6D00B7F433 /* Bernini-Apollo-Daphne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5062117BC3C6D00B7F433 /* Bernini-Apollo-Daphne.jpg */; };
+		CCB5071B17BC3C6D00B7F433 /* nijinsky-faun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5062217BC3C6D00B7F433 /* nijinsky-faun.jpg */; };
+		CCB5071C17BC3C6D00B7F433 /* swope.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5062317BC3C6D00B7F433 /* swope.jpg */; };
+		CCB5071E17BC426400B7F433 /* subjectView_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCB5071D17BC426300B7F433 /* subjectView_1.jpg */; };
+		CCCD98E717BDB9D6003AFDF8 /* classicismBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCCD98E617BDB9D6003AFDF8 /* classicismBackground.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +320,277 @@
 		CC898F5A17B45502004C6C2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC898F5C17B45502004C6C2D /* BalletSocietyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BalletSocietyTests.h; sourceTree = "<group>"; };
 		CC898F5D17B45502004C6C2D /* BalletSocietyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BalletSocietyTests.m; sourceTree = "<group>"; };
+		CCACEA3F17D6A6C700CECB35 /* CBetterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewCell.h; sourceTree = "<group>"; };
+		CCACEA4017D6A6C700CECB35 /* CBetterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewCell.m; sourceTree = "<group>"; };
+		CCACEA4117D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBetterCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		CCACEA4217D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBetterCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		CCACEA4317D6A6C700CECB35 /* CCoverflowCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoverflowCollectionViewLayout.h; sourceTree = "<group>"; };
+		CCACEA4417D6A6C700CECB35 /* CCoverflowCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoverflowCollectionViewLayout.m; sourceTree = "<group>"; };
+		CCACEA4517D6A6C700CECB35 /* CInterpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CInterpolator.h; sourceTree = "<group>"; };
+		CCACEA4617D6A6C700CECB35 /* CInterpolator.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CInterpolator.mm; sourceTree = "<group>"; };
+		CCACEA4717D6A6C700CECB35 /* CReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CReflectionView.h; sourceTree = "<group>"; };
+		CCACEA4817D6A6C700CECB35 /* CReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CReflectionView.m; sourceTree = "<group>"; };
+		CCACEA4917D6A6C700CECB35 /* Interpolator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Interpolator.cpp; sourceTree = "<group>"; };
+		CCACEA4A17D6A6C700CECB35 /* Interpolator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Interpolator.h; sourceTree = "<group>"; };
+		CCACEA5117D6A7B400CECB35 /* CCoverflowTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCoverflowTitleView.h; sourceTree = "<group>"; };
+		CCACEA5217D6A7B400CECB35 /* CCoverflowTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCoverflowTitleView.m; sourceTree = "<group>"; };
+		CCACEA5417D6A7C400CECB35 /* CCoverflowTitleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCoverflowTitleView.xib; sourceTree = "<group>"; };
+		CCACEA5617D6A96B00CECB35 /* CDemoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDemoCollectionViewCell.h; sourceTree = "<group>"; };
+		CCACEA5717D6A96B00CECB35 /* CDemoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDemoCollectionViewCell.m; sourceTree = "<group>"; };
+		CCACEA5917D6AA4200CECB35 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CCACEA5B17D6AA4900CECB35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CCB504FB17BC3A5300B7F433 /* SubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectViewController.h; sourceTree = "<group>"; };
+		CCB504FC17BC3A5300B7F433 /* SubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectViewController.m; sourceTree = "<group>"; };
+		CCB5050217BC3C6C00B7F433 /* 1 - Apollo Instructs a Muse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1 - Apollo Instructs a Muse.png"; sourceTree = "<group>"; };
+		CCB5050317BC3C6C00B7F433 /* 10 - Perspective with Igor Dancing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 - Perspective with Igor Dancing.jpg"; sourceTree = "<group>"; };
+		CCB5050417BC3C6C00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 - Raphael School of Athens with Vanishing Point.jpg"; sourceTree = "<group>"; };
+		CCB5050517BC3C6C00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12 - Mariinsky_theatre Czar's Box. JPG.JPG"; sourceTree = "<group>"; };
+		CCB5050617BC3C6C00B7F433 /* 2 - Artemis with Dress and Bow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 - Artemis with Dress and Bow.png"; sourceTree = "<group>"; };
+		CCB5050717BC3C6C00B7F433 /* 3 - Apollo Dionysus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3 - Apollo Dionysus.jpg"; sourceTree = "<group>"; };
+		CCB5050817BC3C6C00B7F433 /* 4 - Perugino Apollo Stared Downat Marsyas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4 - Perugino Apollo Stared Downat Marsyas.png"; sourceTree = "<group>"; };
+		CCB5050917BC3C6C00B7F433 /* 5 - Apollo Bassae Looking West.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 - Apollo Bassae Looking West.png"; sourceTree = "<group>"; };
+		CCB5050A17BC3C6C00B7F433 /* 6 - Interior Basssae Temple with First Corinthian Column Ever .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6 - Interior Basssae Temple with First Corinthian Column Ever .png"; sourceTree = "<group>"; };
+		CCB5050B17BC3C6C00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7 - Pantheon Shaft of Light from  Eye in the Sky.png"; sourceTree = "<group>"; };
+		CCB5050C17BC3C6C00B7F433 /* 8 - Palladio Villa Rotunda in Spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "8 - Palladio Villa Rotunda in Spring.png"; sourceTree = "<group>"; };
+		CCB5050D17BC3C6C00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9 - Epidauros Theater at Summer Sunset.jpg"; sourceTree = "<group>"; };
+		CCB5050F17BC3C6C00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 - Raphael School of Athens with Vanishing Point.jpg"; sourceTree = "<group>"; };
+		CCB5051017BC3C6C00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12 - Mariinsky_theatre Czar's Box. JPG.JPG"; sourceTree = "<group>"; };
+		CCB5051117BC3C6C00B7F433 /* 19BassaeTempleApollo05_jpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 19BassaeTempleApollo05_jpg.jpg; sourceTree = "<group>"; };
+		CCB5051217BC3C6C00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7 - Pantheon Shaft of Light from  Eye in the Sky.jpg"; sourceTree = "<group>"; };
+		CCB5051317BC3C6C00B7F433 /* 8 - Palladio Villa Rotunda in Spring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 - Palladio Villa Rotunda in Spring.jpg"; sourceTree = "<group>"; };
+		CCB5051417BC3C6C00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9 - Epidauros Theater at Summer Sunset.jpg"; sourceTree = "<group>"; };
+		CCB5051517BC3C6C00B7F433 /* Apollo and Marsyas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apollo and Marsyas.jpg"; sourceTree = "<group>"; };
+		CCB5051617BC3C6C00B7F433 /* Apollo and muse plate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apollo and muse plate.jpg"; sourceTree = "<group>"; };
+		CCB5051717BC3C6C00B7F433 /* bassaetempleapollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bassaetempleapollo.jpg; sourceTree = "<group>"; };
+		CCB5051817BC3C6C00B7F433 /* Niobe-Vase-Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Niobe-Vase-Color.jpg"; sourceTree = "<group>"; };
+		CCB5051917BC3C6C00B7F433 /* PeplosKoreAsArtemis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PeplosKoreAsArtemis.jpg; sourceTree = "<group>"; };
+		CCB5051A17BC3C6C00B7F433 /* perspectiveheart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perspectiveheart.jpg; sourceTree = "<group>"; };
+		CCB5051D17BC3C6C00B7F433 /* sq1_Apollo and Marsyas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq1_Apollo and Marsyas.jpg"; sourceTree = "<group>"; };
+		CCB5051E17BC3C6C00B7F433 /* sq1_Apollo and muse plate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq1_Apollo and muse plate.jpg"; sourceTree = "<group>"; };
+		CCB5051F17BC3C6C00B7F433 /* sq1_Niobe-Vase-Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq1_Niobe-Vase-Color.jpg"; sourceTree = "<group>"; };
+		CCB5052017BC3C6C00B7F433 /* sq1_Pantheon Interior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq1_Pantheon Interior.jpg"; sourceTree = "<group>"; };
+		CCB5052117BC3C6C00B7F433 /* sq1_PeplosKoreAsArtemis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq1_PeplosKoreAsArtemis.jpg; sourceTree = "<group>"; };
+		CCB5052217BC3C6C00B7F433 /* sq2_Apollo and Marsyas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq2_Apollo and Marsyas.jpg"; sourceTree = "<group>"; };
+		CCB5052317BC3C6C00B7F433 /* sq2_Apollo and muse plate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq2_Apollo and muse plate.jpg"; sourceTree = "<group>"; };
+		CCB5052417BC3C6C00B7F433 /* sq2_Apollon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq2_Apollon.jpg; sourceTree = "<group>"; };
+		CCB5052517BC3C6C00B7F433 /* sq2_euergides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq2_euergides.jpg; sourceTree = "<group>"; };
+		CCB5052617BC3C6C00B7F433 /* sq2_PeplosKoreAsArtemis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq2_PeplosKoreAsArtemis.jpg; sourceTree = "<group>"; };
+		CCB5052717BC3C6C00B7F433 /* sq3_Apollo and Marsyas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq3_Apollo and Marsyas.jpg"; sourceTree = "<group>"; };
+		CCB5052817BC3C6C00B7F433 /* sq3_Apollo and muse plate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq3_Apollo and muse plate.jpg"; sourceTree = "<group>"; };
+		CCB5052917BC3C6C00B7F433 /* sq3_K5.4BApollon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq3_K5.4BApollon.jpg; sourceTree = "<group>"; };
+		CCB5052B17BC3C6C00B7F433 /* BILL’S CAPTIONS AND LINKS-1.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BILL’S CAPTIONS AND LINKS-1.docx"; sourceTree = "<group>"; };
+		CCB5052D17BC3C6C00B7F433 /* BILL’S CAPTIONS AND LINKS.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BILL’S CAPTIONS AND LINKS.docx"; sourceTree = "<group>"; };
+		CCB5052E17BC3C6C00B7F433 /* MULLENEDIT.DOC */ = {isa = PBXFileReference; lastKnownFileType = file; path = MULLENEDIT.DOC; sourceTree = "<group>"; };
+		CCB5053117BC3C6C00B7F433 /* FOUR TEXTS FOR TAB APP.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FOUR TEXTS FOR TAB APP.docx"; sourceTree = "<group>"; };
+		CCB5053317BC3C6C00B7F433 /* 1H_PgYKfiBtCo8rPxsofgXyThhLGG3Z_uG8Hrt77x8w.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1H_PgYKfiBtCo8rPxsofgXyThhLGG3Z_uG8Hrt77x8w.jpg; sourceTree = "<group>"; };
+		CCB5053417BC3C6C00B7F433 /* 3 - Lethal Arrows of Apollo and Artemis  .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3 - Lethal Arrows of Apollo and Artemis  .png"; sourceTree = "<group>"; };
+		CCB5053517BC3C6C00B7F433 /* 301568.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 301568.jpg; sourceTree = "<group>"; };
+		CCB5053617BC3C6C00B7F433 /* 785px-Giovanni_Paolo_Panini_-_Interior_of_the_Pantheon,_Rome_-_Google_Art_Project.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "785px-Giovanni_Paolo_Panini_-_Interior_of_the_Pantheon,_Rome_-_Google_Art_Project.jpg"; sourceTree = "<group>"; };
+		CCB5053717BC3C6C00B7F433 /* 8A-Niobe-Vase-Color.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8A-Niobe-Vase-Color.jpg"; sourceTree = "<group>"; };
+		CCB5053817BC3C6C00B7F433 /* 95797-004-AEE7105D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "95797-004-AEE7105D.jpg"; sourceTree = "<group>"; };
+		CCB5053917BC3C6C00B7F433 /* Apollo and Muse.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apollo and Muse.jpeg"; sourceTree = "<group>"; };
+		CCB5053A17BC3C6C00B7F433 /* apollo parnopios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apollo parnopios.jpg"; sourceTree = "<group>"; };
+		CCB5053B17BC3C6C00B7F433 /* apollo propios phidias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apollo propios phidias.jpg"; sourceTree = "<group>"; };
+		CCB5053C17BC3C6C00B7F433 /* Apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apollo.jpg; sourceTree = "<group>"; };
+		CCB5053D17BC3C6C00B7F433 /* Apollo_lew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Apollo_lew.jpg; sourceTree = "<group>"; };
+		CCB5053E17BC3C6C00B7F433 /* Artemis Peplos Kore 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Artemis Peplos Kore 2.jpeg"; sourceTree = "<group>"; };
+		CCB5053F17BC3C6C00B7F433 /* Baassae with view.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Baassae with view.jpeg"; sourceTree = "<group>"; };
+		CCB5054017BC3C6C00B7F433 /* Balanchine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Balanchine.jpg; sourceTree = "<group>"; };
+		CCB5054117BC3C6C00B7F433 /* Bassae Plan and Interior.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bassae Plan and Interior.jpeg"; sourceTree = "<group>"; };
+		CCB5054217BC3C6C00B7F433 /* bassae1347821521065.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bassae1347821521065.jpg; sourceTree = "<group>"; };
+		CCB5054317BC3C6C00B7F433 /* c30278-5_Moz_Whel_kids1r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "c30278-5_Moz_Whel_kids1r.jpg"; sourceTree = "<group>"; };
+		CCB5054417BC3C6C00B7F433 /* CqZH8QYmsmfrdI2Oi8v1l3ADbn2k8GJRgVaxNch9dLk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CqZH8QYmsmfrdI2Oi8v1l3ADbn2k8GJRgVaxNch9dLk.jpg; sourceTree = "<group>"; };
+		CCB5054517BC3C6C00B7F433 /* Death Darts of Artemis and Apollo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Death Darts of Artemis and Apollo.jpeg"; sourceTree = "<group>"; };
+		CCB5054617BC3C6C00B7F433 /* euergides-2b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "euergides-2b.jpg"; sourceTree = "<group>"; };
+		CCB5054717BC3C6C00B7F433 /* Farrell Mozartian children.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Farrell Mozartian children.jpeg"; sourceTree = "<group>"; };
+		CCB5054817BC3C6D00B7F433 /* Farrell Mozartiana.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Farrell Mozartiana.jpeg"; sourceTree = "<group>"; };
+		CCB5054917BC3C6D00B7F433 /* farrell mozartiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "farrell mozartiana.jpg"; sourceTree = "<group>"; };
+		CCB5054A17BC3C6D00B7F433 /* Farrell young with Mr B.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Farrell young with Mr B.jpeg"; sourceTree = "<group>"; };
+		CCB5054B17BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FOUR TEXTS FOR TAB APP.pages"; sourceTree = "<group>"; };
+		CCB5054C17BC3C6D00B7F433 /* getimage-idx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "getimage-idx.jpg"; sourceTree = "<group>"; };
+		CCB5054D17BC3C6D00B7F433 /* Gold Apollo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Gold Apollo.jpeg"; sourceTree = "<group>"; };
+		CCB5054E17BC3C6D00B7F433 /* gold apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gold apollo.jpg"; sourceTree = "<group>"; };
+		CCB5054F17BC3C6D00B7F433 /* images.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpg; sourceTree = "<group>"; };
+		CCB5055017BC3C6D00B7F433 /* Interior_of_the_Pantheon,_Rome_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Interior_of_the_Pantheon,_Rome_.jpg"; sourceTree = "<group>"; };
+		CCB5055117BC3C6D00B7F433 /* JGoZvxp7I8_qf8Wnj8PJv2pSdj-udjDjBZcSiY7pcBI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "JGoZvxp7I8_qf8Wnj8PJv2pSdj-udjDjBZcSiY7pcBI.jpg"; sourceTree = "<group>"; };
+		CCB5055217BC3C6D00B7F433 /* k0ufufWW-zaex7zhAOHBOS6k-mOGsHN2HhtTdFFIAO8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k0ufufWW-zaex7zhAOHBOS6k-mOGsHN2HhtTdFFIAO8.jpg"; sourceTree = "<group>"; };
+		CCB5055317BC3C6D00B7F433 /* K5.4Apollon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = K5.4Apollon.jpg; sourceTree = "<group>"; };
+		CCB5055417BC3C6D00B7F433 /* K5.4BApollon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = K5.4BApollon.jpg; sourceTree = "<group>"; };
+		CCB5055517BC3C6D00B7F433 /* kasseler_apoll_gercke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kasseler_apoll_gercke.jpg; sourceTree = "<group>"; };
+		CCB5055617BC3C6D00B7F433 /* Larotonda2009-640x360.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Larotonda2009-640x360.jpg"; sourceTree = "<group>"; };
+		CCB5055717BC3C6D00B7F433 /* mozartiana_ananiashvili_preghiera_600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mozartiana_ananiashvili_preghiera_600.jpg; sourceTree = "<group>"; };
+		CCB5055817BC3C6D00B7F433 /* NE_WET7kxPiy1XDSlHVE5VM260NUKnRnCNqaoVRCAyw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NE_WET7kxPiy1XDSlHVE5VM260NUKnRnCNqaoVRCAyw.jpg; sourceTree = "<group>"; };
+		CCB5055917BC3C6D00B7F433 /* Npuy11CHnDPPpy7eNqmOg_TFmSFFnZ8nv8xiy3eNGv8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Npuy11CHnDPPpy7eNqmOg_TFmSFFnZ8nv8xiy3eNGv8.jpg; sourceTree = "<group>"; };
+		CCB5055A17BC3C6D00B7F433 /* oX41ZQswtck9V9w2_Nphkh4gI1HHbb1MmHlVpJBs6hE.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oX41ZQswtck9V9w2_Nphkh4gI1HHbb1MmHlVpJBs6hE.jpg; sourceTree = "<group>"; };
+		CCB5055B17BC3C6D00B7F433 /* Pantheon Interior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Pantheon Interior.jpg"; sourceTree = "<group>"; };
+		CCB5055C17BC3C6D00B7F433 /* perspectiveheart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perspectiveheart.jpg; sourceTree = "<group>"; };
+		CCB5055D17BC3C6D00B7F433 /* Perugino Apollo and Marsyas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Perugino Apollo and Marsyas.jpeg"; sourceTree = "<group>"; };
+		CCB5055E17BC3C6D00B7F433 /* pFEBVhY6KcQnhDvq-rGStDrK3-sa26tlt5wyUSfMaIY.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pFEBVhY6KcQnhDvq-rGStDrK3-sa26tlt5wyUSfMaIY.jpg"; sourceTree = "<group>"; };
+		CCB5055F17BC3C6D00B7F433 /* pUvLCpCMF5eJU0YiJGh_K3Os58YxYrkvH07Hmi3C41c.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pUvLCpCMF5eJU0YiJGh_K3Os58YxYrkvH07Hmi3C41c.jpg; sourceTree = "<group>"; };
+		CCB5056017BC3C6D00B7F433 /* r0G2HVwp1cmAgeSHlokZDhdZ4dTmI2oWqlUGDFw_C4g.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = r0G2HVwp1cmAgeSHlokZDhdZ4dTmI2oWqlUGDFw_C4g.jpg; sourceTree = "<group>"; };
+		CCB5056117BC3C6D00B7F433 /* sq1_apollo propios phidias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq1_apollo propios phidias.jpg"; sourceTree = "<group>"; };
+		CCB5056217BC3C6D00B7F433 /* sq1_Balanchine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq1_Balanchine.jpg; sourceTree = "<group>"; };
+		CCB5056317BC3C6D00B7F433 /* sq1_euergides.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq1_euergides.jpg; sourceTree = "<group>"; };
+		CCB5056417BC3C6D00B7F433 /* sq1_farrell mozartiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq1_farrell mozartiana.jpg"; sourceTree = "<group>"; };
+		CCB5056517BC3C6D00B7F433 /* sq1_Villa_Rotonda_front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sq1_Villa_Rotonda_front.jpg; sourceTree = "<group>"; };
+		CCB5056617BC3C6D00B7F433 /* sq2_farrell mozartiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq2_farrell mozartiana.jpg"; sourceTree = "<group>"; };
+		CCB5056717BC3C6D00B7F433 /* sq2_villa rotonda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq2_villa rotonda.jpg"; sourceTree = "<group>"; };
+		CCB5056817BC3C6D00B7F433 /* sq3_farrell mozartiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq3_farrell mozartiana.jpg"; sourceTree = "<group>"; };
+		CCB5056917BC3C6D00B7F433 /* sq4_farrell mozartiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq4_farrell mozartiana.jpg"; sourceTree = "<group>"; };
+		CCB5056A17BC3C6D00B7F433 /* sq5_farrell mozartiana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq5_farrell mozartiana.jpg"; sourceTree = "<group>"; };
+		CCB5056B17BC3C6D00B7F433 /* terracotta kylix .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "terracotta kylix .jpg"; sourceTree = "<group>"; };
+		CCB5056C17BC3C6D00B7F433 /* unidentified_kylix_apollo_and_muse.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = unidentified_kylix_apollo_and_muse.gif; sourceTree = "<group>"; };
+		CCB5056D17BC3C6D00B7F433 /* Villa Rotonda with trees.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Villa Rotonda with trees.JPG"; sourceTree = "<group>"; };
+		CCB5056E17BC3C6D00B7F433 /* villa rotonda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "villa rotonda.jpg"; sourceTree = "<group>"; };
+		CCB5056F17BC3C6D00B7F433 /* Villa_Rotonda_front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Villa_Rotonda_front.jpg; sourceTree = "<group>"; };
+		CCB5057017BC3C6D00B7F433 /* VillaRotondaOut-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "VillaRotondaOut-1.jpg"; sourceTree = "<group>"; };
+		CCB5057117BC3C6D00B7F433 /* w6x1I9JgxMSKosAzmXPPXVEVV-xk8MY0GhFIxC3Fyz4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "w6x1I9JgxMSKosAzmXPPXVEVV-xk8MY0GhFIxC3Fyz4.jpg"; sourceTree = "<group>"; };
+		CCB5057217BC3C6D00B7F433 /* Z3zcFt_aHXPLOQzZ7f_z_d3FhS8TxC11qtX8nSqj_y8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Z3zcFt_aHXPLOQzZ7f_z_d3FhS8TxC11qtX8nSqj_y8.jpg; sourceTree = "<group>"; };
+		CCB5057517BC3C6D00B7F433 /* apollo and kalliope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apollo and kalliope.jpg"; sourceTree = "<group>"; };
+		CCB5057617BC3C6D00B7F433 /* apollo musagete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "apollo musagete.jpg"; sourceTree = "<group>"; };
+		CCB5057717BC3C6D00B7F433 /* balanchine 1920s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "balanchine 1920s.jpg"; sourceTree = "<group>"; };
+		CCB5057817BC3C6D00B7F433 /* Ballets_Russes_Apollon_1928.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ballets_Russes_Apollon_1928.jpg; sourceTree = "<group>"; };
+		CCB5057A17BC3C6D00B7F433 /* abt logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "abt logo.jpg"; sourceTree = "<group>"; };
+		CCB5057B17BC3C6D00B7F433 /* artemis and apollo copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "artemis and apollo copy.jpg"; sourceTree = "<group>"; };
+		CCB5057C17BC3C6D00B7F433 /* artemis and apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "artemis and apollo.jpg"; sourceTree = "<group>"; };
+		CCB5057D17BC3C6D00B7F433 /* julie kent artemis lar lubavitch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "julie kent artemis lar lubavitch.jpg"; sourceTree = "<group>"; };
+		CCB5057E17BC3C6D00B7F433 /* lar_lubovitch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lar_lubovitch.jpg; sourceTree = "<group>"; };
+		CCB5057F17BC3C6D00B7F433 /* parthenon illustration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "parthenon illustration.jpg"; sourceTree = "<group>"; };
+		CCB5058117BC3C6D00B7F433 /* apollo and dionysus.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "apollo and dionysus.pdf"; sourceTree = "<group>"; };
+		CCB5058217BC3C6D00B7F433 /* apollo instructs a muse.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "apollo instructs a muse.pdf"; sourceTree = "<group>"; };
+		CCB5058317BC3C6D00B7F433 /* artemis with dress and bow.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "artemis with dress and bow.pdf"; sourceTree = "<group>"; };
+		CCB5058417BC3C6D00B7F433 /* attic dionysus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "attic dionysus.jpg"; sourceTree = "<group>"; };
+		CCB5058517BC3C6D00B7F433 /* dionysus lausanne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "dionysus lausanne.jpg"; sourceTree = "<group>"; };
+		CCB5058617BC3C6D00B7F433 /* parthenon illustration.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "parthenon illustration.jpg"; sourceTree = "<group>"; };
+		CCB5058717BC3C6D00B7F433 /* pavlova in dionysus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pavlova in dionysus.jpg"; sourceTree = "<group>"; };
+		CCB5058B17BC3C6D00B7F433 /* 1 duncan low orginal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 duncan low orginal.jpg"; sourceTree = "<group>"; };
+		CCB5058C17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 Isadora_duncan.jpg"; sourceTree = "<group>"; };
+		CCB5058D17BC3C6D00B7F433 /* 10 Shiva as Nataraja .jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 Shiva as Nataraja .jpg"; sourceTree = "<group>"; };
+		CCB5058E17BC3C6D00B7F433 /* 11 temple minerva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 temple minerva.jpg"; sourceTree = "<group>"; };
+		CCB5058F17BC3C6D00B7F433 /* 2 nureyev source.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2 nureyev source.png"; sourceTree = "<group>"; };
+		CCB5059017BC3C6D00B7F433 /* 2 nureyev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 nureyev.jpg"; sourceTree = "<group>"; };
+		CCB5059217BC3C6D00B7F433 /* 2.04.round.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.04.round.jpg; sourceTree = "<group>"; };
+		CCB5059317BC3C6D00B7F433 /* 6a00d8341c4e3853ef010535c9c8c2970b-800wi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6a00d8341c4e3853ef010535c9c8c2970b-800wi.jpg"; sourceTree = "<group>"; };
+		CCB5059417BC3C6D00B7F433 /* julia kent juliet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "julia kent juliet.jpg"; sourceTree = "<group>"; };
+		CCB5059517BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.27.51 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen shot 2013-03-08 at 6.27.51 PM.png"; sourceTree = "<group>"; };
+		CCB5059617BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.30.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen shot 2013-03-08 at 6.30.35 PM.png"; sourceTree = "<group>"; };
+		CCB5059717BC3C6D00B7F433 /* 4 Apollo Peter&Suzanne2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4 Apollo Peter&Suzanne2.jpg"; sourceTree = "<group>"; };
+		CCB5059817BC3C6D00B7F433 /* 5 taglioni.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5 taglioni.png"; sourceTree = "<group>"; };
+		CCB5059917BC3C6D00B7F433 /* 6 arabesque low res.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6 arabesque low res.jpg"; sourceTree = "<group>"; };
+		CCB5059A17BC3C6D00B7F433 /* 7 impressing the czar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7 impressing the czar.jpg"; sourceTree = "<group>"; };
+		CCB5059B17BC3C6D00B7F433 /* 8 indian dancer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 indian dancer.jpg"; sourceTree = "<group>"; };
+		CCB5059D17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 Isadora_duncan.jpg"; sourceTree = "<group>"; };
+		CCB5059E17BC3C6D00B7F433 /* 1 IsadoraDuncan572.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 IsadoraDuncan572.jpg"; sourceTree = "<group>"; };
+		CCB5059F17BC3C6D00B7F433 /* 11 Minerva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 Minerva.jpg"; sourceTree = "<group>"; };
+		CCB505A017BC3C6D00B7F433 /* 12 noh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12 noh.png"; sourceTree = "<group>"; };
+		CCB505A117BC3C6D00B7F433 /* 7 impressczar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7 impressczar.jpg"; sourceTree = "<group>"; };
+		CCB505A217BC3C6D00B7F433 /* 8 Saisanthosh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 Saisanthosh.jpg"; sourceTree = "<group>"; };
+		CCB505A317BC3C6D00B7F433 /* 9 equestrian source.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9 equestrian source.png"; sourceTree = "<group>"; };
+		CCB505A417BC3C6D00B7F433 /* 9 equestrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "9 equestrian.png"; sourceTree = "<group>"; };
+		CCB505A517BC3C6D00B7F433 /* Apollo Peter&Suzanne2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apollo Peter&Suzanne2.jpg"; sourceTree = "<group>"; };
+		CCB505A617BC3C6D00B7F433 /* equestrian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = equestrian.jpg; sourceTree = "<group>"; };
+		CCB505A717BC3C6D00B7F433 /* equestrian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equestrian.png; sourceTree = "<group>"; };
+		CCB505A817BC3C6D00B7F433 /* impressczar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impressczar.jpg; sourceTree = "<group>"; };
+		CCB505A917BC3C6D00B7F433 /* julia kent ondine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "julia kent ondine.jpg"; sourceTree = "<group>"; };
+		CCB505AA17BC3C6D00B7F433 /* Julie Kent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Julie Kent.jpg"; sourceTree = "<group>"; };
+		CCB505AB17BC3C6D00B7F433 /* maria taglioni litho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "maria taglioni litho.jpg"; sourceTree = "<group>"; };
+		CCB505AC17BC3C6D00B7F433 /* noh actor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "noh actor.jpg"; sourceTree = "<group>"; };
+		CCB505AD17BC3C6D00B7F433 /* noh dancer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "noh dancer.jpg"; sourceTree = "<group>"; };
+		CCB505AE17BC3C6D00B7F433 /* nureyev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nureyev.jpg; sourceTree = "<group>"; };
+		CCB505AF17BC3C6D00B7F433 /* Saisanthosh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Saisanthosh.jpg; sourceTree = "<group>"; };
+		CCB505B017BC3C6D00B7F433 /* Shiva as Nataraja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shiva as Nataraja.jpg"; sourceTree = "<group>"; };
+		CCB505B317BC3C6D00B7F433 /* 1 Isadora_duncan large square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 Isadora_duncan large square.jpg"; sourceTree = "<group>"; };
+		CCB505B417BC3C6D00B7F433 /* 1 square isadora_duncan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 square isadora_duncan.jpg"; sourceTree = "<group>"; };
+		CCB505B517BC3C6D00B7F433 /* 10 square Shiva as Nataraja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 square Shiva as Nataraja.jpg"; sourceTree = "<group>"; };
+		CCB505B617BC3C6D00B7F433 /* 11 square Minerva.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 square Minerva.jpg"; sourceTree = "<group>"; };
+		CCB505B717BC3C6D00B7F433 /* 2 square nureyev.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 square nureyev.jpg"; sourceTree = "<group>"; };
+		CCB505B817BC3C6D00B7F433 /* 4 peter and suzanne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4 peter and suzanne.jpg"; sourceTree = "<group>"; };
+		CCB505B917BC3C6D00B7F433 /* 5 square maria taglioni litho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5 square maria taglioni litho.jpg"; sourceTree = "<group>"; };
+		CCB505BA17BC3C6D00B7F433 /* 6 square arabesque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6 square arabesque.jpg"; sourceTree = "<group>"; };
+		CCB505BB17BC3C6D00B7F433 /* 7 square impressczar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7 square impressczar.jpg"; sourceTree = "<group>"; };
+		CCB505BC17BC3C6D00B7F433 /* 8 square Saisanthosh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 square Saisanthosh.jpg"; sourceTree = "<group>"; };
+		CCB505BD17BC3C6D00B7F433 /* 9 square equestrian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9 square equestrian.jpg"; sourceTree = "<group>"; };
+		CCB505BE17BC3C6D00B7F433 /* julie kent juliet cropped square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "julie kent juliet cropped square.jpg"; sourceTree = "<group>"; };
+		CCB505BF17BC3C6D00B7F433 /* julie kent juliet square.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "julie kent juliet square.jpg"; sourceTree = "<group>"; };
+		CCB505C017BC3C6D00B7F433 /* julie kent juliet.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "julie kent juliet.tiff"; sourceTree = "<group>"; };
+		CCB505C217BC3C6D00B7F433 /* sq Julie Kent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq Julie Kent.jpg"; sourceTree = "<group>"; };
+		CCB505C317BC3C6D00B7F433 /* square Julie Kent.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Julie Kent.jpg"; sourceTree = "<group>"; };
+		CCB505C417BC3C6D00B7F433 /* square noh actor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square noh actor.jpg"; sourceTree = "<group>"; };
+		CCB505C717BC3C6D00B7F433 /* conv 2 captions  */ = {isa = PBXFileReference; lastKnownFileType = file; path = "conv 2 captions "; sourceTree = "<group>"; };
+		CCB505CB17BC3C6D00B7F433 /* APP TEXTS-1.DOC */ = {isa = PBXFileReference; lastKnownFileType = file; path = "APP TEXTS-1.DOC"; sourceTree = "<group>"; };
+		CCB505CC17BC3C6D00B7F433 /* APP TEXTS.DOC */ = {isa = PBXFileReference; lastKnownFileType = file; path = "APP TEXTS.DOC"; sourceTree = "<group>"; };
+		CCB505CD17BC3C6D00B7F433 /* conv 2 texts JH.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "conv 2 texts JH.pdf"; sourceTree = "<group>"; };
+		CCB505D017BC3C6D00B7F433 /* 12 noh actor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12 noh actor.png"; sourceTree = "<group>"; };
+		CCB505D117BC3C6D00B7F433 /* conv 2 composite.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "conv 2 composite.jpg"; sourceTree = "<group>"; };
+		CCB505D217BC3C6D00B7F433 /* Julie Kent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Julie Kent.png"; sourceTree = "<group>"; };
+		CCB505D417BC3C6D00B7F433 /* conv2 spiral composed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "conv2 spiral composed.jpg"; sourceTree = "<group>"; };
+		CCB505D517BC3C6D00B7F433 /* conv2 spiral composed.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "conv2 spiral composed.psd"; sourceTree = "<group>"; };
+		CCB505D917BC3C6D00B7F433 /* 1-Greek_vase_with_different_sportsmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1-Greek_vase_with_different_sportsmen.jpg"; sourceTree = "<group>"; };
+		CCB505DA17BC3C6D00B7F433 /* 10-GB&LK with Lyres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10-GB&LK with Lyres.jpg"; sourceTree = "<group>"; };
+		CCB505DB17BC3C6D00B7F433 /* 11-Diana_Adams_and_Arthur_Mitchell_rehearsing_Agon-1_Martha Swope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11-Diana_Adams_and_Arthur_Mitchell_rehearsing_Agon-1_Martha Swope.jpg"; sourceTree = "<group>"; };
+		CCB505DC17BC3C6D00B7F433 /* 12-Degas-three-dancers-in-an-exercise-hall.jpg!HalfHD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12-Degas-three-dancers-in-an-exercise-hall.jpg!HalfHD.jpg"; sourceTree = "<group>"; };
+		CCB505DD17BC3C6D00B7F433 /* 2-Belvedere_Apollo_Pio-Clementino_Inv1015.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2-Belvedere_Apollo_Pio-Clementino_Inv1015.jpg"; sourceTree = "<group>"; };
+		CCB505DE17BC3C6D00B7F433 /* 3-Da_Vinci_Vitruvian_Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3-Da_Vinci_Vitruvian_Man.jpg"; sourceTree = "<group>"; };
+		CCB505DF17BC3C6D00B7F433 /* 4-POUSSIN-dance-to-the-music-of-time-1634.jpg!Blog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4-POUSSIN-dance-to-the-music-of-time-1634.jpg!Blog.jpg"; sourceTree = "<group>"; };
+		CCB505E017BC3C6D00B7F433 /* 5-Louis Apollo_Soleil_bis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5-Louis Apollo_Soleil_bis.jpg"; sourceTree = "<group>"; };
+		CCB505E117BC3C6D00B7F433 /* 6-Five_positions_of_dancing_Wilson_1811.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6-Five_positions_of_dancing_Wilson_1811.jpg"; sourceTree = "<group>"; };
+		CCB505E217BC3C6D00B7F433 /* 7-Mercury da Bologna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-Mercury da Bologna.jpg"; sourceTree = "<group>"; };
+		CCB505E317BC3C6D00B7F433 /* 7-Tallchief in Attitude-Swan Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7-Tallchief in Attitude-Swan Lake.jpg"; sourceTree = "<group>"; };
+		CCB505E417BC3C6D00B7F433 /* 8-DiaghilevStravinsky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8-DiaghilevStravinsky.jpg"; sourceTree = "<group>"; };
+		CCB505E517BC3C6D00B7F433 /* 9-Nijinsky_faun_carrying_scarf_Baron_de_Meyer_1912.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9-Nijinsky_faun_carrying_scarf_Baron_de_Meyer_1912.jpg"; sourceTree = "<group>"; };
+		CCB505E717BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 Greek_vase_with_different_sportsmen copy.jpg"; sourceTree = "<group>"; };
+		CCB505E817BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 Greek_vase_with_different_sportsmen.jpg"; sourceTree = "<group>"; };
+		CCB505E917BC3C6D00B7F433 /* 10 GB&LK with Lyres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "10 GB&LK with Lyres.jpg"; sourceTree = "<group>"; };
+		CCB505EA17BC3C6D00B7F433 /* 11 adams mitchell agon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "11 adams mitchell agon.jpg"; sourceTree = "<group>"; };
+		CCB505EB17BC3C6D00B7F433 /* 12 degas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "12 degas.jpg"; sourceTree = "<group>"; };
+		CCB505EC17BC3C6D00B7F433 /* 12 degas.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "12 degas.psd"; sourceTree = "<group>"; };
+		CCB505ED17BC3C6D00B7F433 /* 2 Belvedere_Apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 Belvedere_Apollo.jpg"; sourceTree = "<group>"; };
+		CCB505EE17BC3C6D00B7F433 /* 3 Da_Vinci_Vitruvian_Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3 Da_Vinci_Vitruvian_Man.jpg"; sourceTree = "<group>"; };
+		CCB505EF17BC3C6D00B7F433 /* 4 POUSSIN-dance-to-the-music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "4 POUSSIN-dance-to-the-music.jpg"; sourceTree = "<group>"; };
+		CCB505F017BC3C6D00B7F433 /* 5 Louis Apollo_Soleil_bis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5 Louis Apollo_Soleil_bis.jpg"; sourceTree = "<group>"; };
+		CCB505F117BC3C6D00B7F433 /* 6 Five_positions_of_dancing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "6 Five_positions_of_dancing.jpg"; sourceTree = "<group>"; };
+		CCB505F217BC3C6D00B7F433 /* 7 tallchief and mercury.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "7 tallchief and mercury.jpg"; sourceTree = "<group>"; };
+		CCB505F317BC3C6D00B7F433 /* 7 tallchief and mercury.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = "7 tallchief and mercury.psd"; sourceTree = "<group>"; };
+		CCB505F417BC3C6D00B7F433 /* 8 nijinsky faun 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8 nijinsky faun 2.jpg"; sourceTree = "<group>"; };
+		CCB505F517BC3C6D00B7F433 /* 9 diaghilev_and_stravinsky_spain_1921.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "9 diaghilev_and_stravinsky_spain_1921.jpg"; sourceTree = "<group>"; };
+		CCB505F717BC3C6D00B7F433 /* Mercury da Bologna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Mercury da Bologna.jpg"; sourceTree = "<group>"; };
+		CCB505F817BC3C6D00B7F433 /* Tallchief Swan Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Tallchief Swan Lake.jpg"; sourceTree = "<group>"; };
+		CCB505FB17BC3C6D00B7F433 /* cr1 Apollo-lew christensen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1 Apollo-lew christensen.jpg"; sourceTree = "<group>"; };
+		CCB505FC17BC3C6D00B7F433 /* cr1 Belvedere_Apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1 Belvedere_Apollo.jpg"; sourceTree = "<group>"; };
+		CCB505FD17BC3C6D00B7F433 /* cr1 Bernini-Apollo-Daphne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1 Bernini-Apollo-Daphne.jpg"; sourceTree = "<group>"; };
+		CCB505FE17BC3C6D00B7F433 /* cr1 Five_positions_of_dancing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1 Five_positions_of_dancing.jpg"; sourceTree = "<group>"; };
+		CCB505FF17BC3C6D00B7F433 /* cr1 Louis Apollo_Soleil_bis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1 Louis Apollo_Soleil_bis.jpg"; sourceTree = "<group>"; };
+		CCB5060017BC3C6D00B7F433 /* cr1 POUSSIN-dance-to-the-music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1 POUSSIN-dance-to-the-music.jpg"; sourceTree = "<group>"; };
+		CCB5060117BC3C6D00B7F433 /* cr1nijinsky-faun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr1nijinsky-faun.jpg"; sourceTree = "<group>"; };
+		CCB5060217BC3C6D00B7F433 /* cr2 Belvedere_Apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr2 Belvedere_Apollo.jpg"; sourceTree = "<group>"; };
+		CCB5060317BC3C6D00B7F433 /* cr2 Bernini-Apollo-Daphne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr2 Bernini-Apollo-Daphne.jpg"; sourceTree = "<group>"; };
+		CCB5060417BC3C6D00B7F433 /* cr2 Louis Apollo_Soleil_bis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr2 Louis Apollo_Soleil_bis.jpg"; sourceTree = "<group>"; };
+		CCB5060517BC3C6D00B7F433 /* cr2 POUSSIN-dance-to-the-music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr2 POUSSIN-dance-to-the-music.jpg"; sourceTree = "<group>"; };
+		CCB5060617BC3C6D00B7F433 /* cr3 Louis Apollo_Soleil_bis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cr3 Louis Apollo_Soleil_bis.jpg"; sourceTree = "<group>"; };
+		CCB5060717BC3C6D00B7F433 /* sq adams mitchell agon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq adams mitchell agon.jpg"; sourceTree = "<group>"; };
+		CCB5060817BC3C6D00B7F433 /* sq Mercury da Bologna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sq Mercury da Bologna.jpg"; sourceTree = "<group>"; };
+		CCB5060917BC3C6D00B7F433 /* sqdegas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sqdegas.jpg; sourceTree = "<group>"; };
+		CCB5060A17BC3C6D00B7F433 /* square Apollo-lew christensen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Apollo-lew christensen.jpg"; sourceTree = "<group>"; };
+		CCB5060B17BC3C6D00B7F433 /* square Apollo-Terpsichore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Apollo-Terpsichore.jpg"; sourceTree = "<group>"; };
+		CCB5060C17BC3C6D00B7F433 /* square Belvedere_Apollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Belvedere_Apollo.jpg"; sourceTree = "<group>"; };
+		CCB5060D17BC3C6D00B7F433 /* square Bernini-Apollo-Daphne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Bernini-Apollo-Daphne.jpg"; sourceTree = "<group>"; };
+		CCB5060E17BC3C6D00B7F433 /* square Da_Vinci_Vitruvian_Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Da_Vinci_Vitruvian_Man.jpg"; sourceTree = "<group>"; };
+		CCB5060F17BC3C6D00B7F433 /* square Five_positions_of_dancing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Five_positions_of_dancing.jpg"; sourceTree = "<group>"; };
+		CCB5061017BC3C6D00B7F433 /* square Louis Apollo_Soleil_bis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square Louis Apollo_Soleil_bis.jpg"; sourceTree = "<group>"; };
+		CCB5061117BC3C6D00B7F433 /* square nijinsky-faun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square nijinsky-faun.jpg"; sourceTree = "<group>"; };
+		CCB5061217BC3C6D00B7F433 /* square POUSSIN-dance-to-the-music.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "square POUSSIN-dance-to-the-music.jpg"; sourceTree = "<group>"; };
+		CCB5061317BC3C6D00B7F433 /* squareTallchief Swan Lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "squareTallchief Swan Lake.jpg"; sourceTree = "<group>"; };
+		CCB5061617BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links-1.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CLASSICAPP3 - Captions & Links-1.docx"; sourceTree = "<group>"; };
+		CCB5061817BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CLASSICAPP3 - Captions & Links.docx"; sourceTree = "<group>"; };
+		CCB5061B17BC3C6D00B7F433 /* TEXTS -APP 1-convo 3-1.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TEXTS -APP 1-convo 3-1.docx"; sourceTree = "<group>"; };
+		CCB5061D17BC3C6D00B7F433 /* TEXTS -APP 1-convo 3.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TEXTS -APP 1-convo 3.docx"; sourceTree = "<group>"; };
+		CCB5061F17BC3C6D00B7F433 /* Apollo-lew christensen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apollo-lew christensen.jpg"; sourceTree = "<group>"; };
+		CCB5062017BC3C6D00B7F433 /* Apollo-Terpsichore.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Apollo-Terpsichore.jpg"; sourceTree = "<group>"; };
+		CCB5062117BC3C6D00B7F433 /* Bernini-Apollo-Daphne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Bernini-Apollo-Daphne.jpg"; sourceTree = "<group>"; };
+		CCB5062217BC3C6D00B7F433 /* nijinsky-faun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "nijinsky-faun.jpg"; sourceTree = "<group>"; };
+		CCB5062317BC3C6D00B7F433 /* swope.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = swope.jpg; sourceTree = "<group>"; };
+		CCB5071D17BC426300B7F433 /* subjectView_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = subjectView_1.jpg; path = LocalAssets/subjectView_1.jpg; sourceTree = "<group>"; };
+		CCCD98E617BDB9D6003AFDF8 /* classicismBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = classicismBackground.jpg; path = LocalAssets/classicismBackground.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +598,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCACEA5C17D6AA4900CECB35 /* QuartzCore.framework in Frameworks */,
+				CCACEA5A17D6AA4200CECB35 /* AssetsLibrary.framework in Frameworks */,
 				CC898F2D17B45502004C6C2D /* UIKit.framework in Frameworks */,
 				CC898F2F17B45502004C6C2D /* Foundation.framework in Frameworks */,
 				CC898F3117B45502004C6C2D /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +622,9 @@
 		CC898F2017B45502004C6C2D = {
 			isa = PBXGroup;
 			children = (
+				CCACEA5B17D6AA4900CECB35 /* QuartzCore.framework */,
+				CCACEA5917D6AA4200CECB35 /* AssetsLibrary.framework */,
+				CCACEA3E17D6A6C700CECB35 /* Coverflow */,
 				CC898F3217B45502004C6C2D /* BalletSociety */,
 				CC898F5617B45502004C6C2D /* BalletSocietyTests */,
 				CC898F2B17B45502004C6C2D /* Frameworks */,
@@ -117,9 +655,16 @@
 		CC898F3217B45502004C6C2D /* BalletSociety */ = {
 			isa = PBXGroup;
 			children = (
+				CCACEA5617D6A96B00CECB35 /* CDemoCollectionViewCell.h */,
+				CCACEA5717D6A96B00CECB35 /* CDemoCollectionViewCell.m */,
 				CC898F3B17B45502004C6C2D /* AppDelegate.h */,
+				CCACEA5417D6A7C400CECB35 /* CCoverflowTitleView.xib */,
+				CCACEA5117D6A7B400CECB35 /* CCoverflowTitleView.h */,
+				CCACEA5217D6A7B400CECB35 /* CCoverflowTitleView.m */,
 				CC898F3C17B45502004C6C2D /* AppDelegate.m */,
 				CC898F4417B45502004C6C2D /* MainStoryboard.storyboard */,
+				CCB504FB17BC3A5300B7F433 /* SubjectViewController.h */,
+				CCB504FC17BC3A5300B7F433 /* SubjectViewController.m */,
 				CC898F4717B45502004C6C2D /* ViewController.h */,
 				CC898F4817B45502004C6C2D /* ViewController.m */,
 				CC898F3317B45502004C6C2D /* Supporting Files */,
@@ -130,6 +675,9 @@
 		CC898F3317B45502004C6C2D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCCD98E617BDB9D6003AFDF8 /* classicismBackground.jpg */,
+				CCB5071D17BC426300B7F433 /* subjectView_1.jpg */,
+				CCB504FE17BC3C6C00B7F433 /* LocalAssets */,
 				CC898F3417B45502004C6C2D /* BalletSociety-Info.plist */,
 				CC898F3517B45502004C6C2D /* InfoPlist.strings */,
 				CC898F3817B45502004C6C2D /* main.m */,
@@ -158,6 +706,673 @@
 				CC898F5917B45502004C6C2D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCACEA3E17D6A6C700CECB35 /* Coverflow */ = {
+			isa = PBXGroup;
+			children = (
+				CCACEA3F17D6A6C700CECB35 /* CBetterCollectionViewCell.h */,
+				CCACEA4017D6A6C700CECB35 /* CBetterCollectionViewCell.m */,
+				CCACEA4117D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.h */,
+				CCACEA4217D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.m */,
+				CCACEA4317D6A6C700CECB35 /* CCoverflowCollectionViewLayout.h */,
+				CCACEA4417D6A6C700CECB35 /* CCoverflowCollectionViewLayout.m */,
+				CCACEA4517D6A6C700CECB35 /* CInterpolator.h */,
+				CCACEA4617D6A6C700CECB35 /* CInterpolator.mm */,
+				CCACEA4717D6A6C700CECB35 /* CReflectionView.h */,
+				CCACEA4817D6A6C700CECB35 /* CReflectionView.m */,
+				CCACEA4917D6A6C700CECB35 /* Interpolator.cpp */,
+				CCACEA4A17D6A6C700CECB35 /* Interpolator.h */,
+			);
+			name = Coverflow;
+			path = BalletSociety/Coverflow;
+			sourceTree = "<group>";
+		};
+		CCB504FE17BC3C6C00B7F433 /* LocalAssets */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6D17217D65195001B4429 /* Source Text */,
+				CCB6D15617D6510D001B4429 /* Source Images */,
+				CCB504FF17BC3C6C00B7F433 /* CONV 1 INTRO TO CLASSICISM */,
+				CCB5058817BC3C6D00B7F433 /* CONV 2 DANCE AND CLASSICISM */,
+				CCB505D617BC3C6D00B7F433 /* CONV 3 EVOLUTION OF CLASSICISM */,
+			);
+			path = LocalAssets;
+			sourceTree = "<group>";
+		};
+		CCB504FF17BC3C6C00B7F433 /* CONV 1 INTRO TO CLASSICISM */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5050017BC3C6C00B7F433 /* 1A  selected images */,
+				CCB5052F17BC3C6C00B7F433 /* 1B  selected texts */,
+				CCB5053217BC3C6C00B7F433 /* 1C  removed selections */,
+				CCB5057317BC3C6D00B7F433 /* D  possible image links */,
+			);
+			path = "CONV 1 INTRO TO CLASSICISM";
+			sourceTree = "<group>";
+		};
+		CCB5050017BC3C6C00B7F433 /* 1A  selected images */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5050117BC3C6C00B7F433 /* a_1 low res original */,
+				CCB5050E17BC3C6C00B7F433 /* a_2 intermediate res */,
+				CCB5051B17BC3C6C00B7F433 /* a_3 production ready */,
+				CCB5051C17BC3C6C00B7F433 /* a_4 square cropped versions */,
+				CCB5052A17BC3C6C00B7F433 /* a_5 image captions */,
+			);
+			path = "1A  selected images";
+			sourceTree = "<group>";
+		};
+		CCB5050117BC3C6C00B7F433 /* a_1 low res original */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5050217BC3C6C00B7F433 /* 1 - Apollo Instructs a Muse.png */,
+				CCB5050317BC3C6C00B7F433 /* 10 - Perspective with Igor Dancing.jpg */,
+				CCB5050417BC3C6C00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg */,
+				CCB5050517BC3C6C00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG */,
+				CCB5050617BC3C6C00B7F433 /* 2 - Artemis with Dress and Bow.png */,
+				CCB5050717BC3C6C00B7F433 /* 3 - Apollo Dionysus.jpg */,
+				CCB5050817BC3C6C00B7F433 /* 4 - Perugino Apollo Stared Downat Marsyas.png */,
+				CCB5050917BC3C6C00B7F433 /* 5 - Apollo Bassae Looking West.png */,
+				CCB5050A17BC3C6C00B7F433 /* 6 - Interior Basssae Temple with First Corinthian Column Ever .png */,
+				CCB5050B17BC3C6C00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.png */,
+				CCB5050C17BC3C6C00B7F433 /* 8 - Palladio Villa Rotunda in Spring.png */,
+				CCB5050D17BC3C6C00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg */,
+			);
+			path = "a_1 low res original";
+			sourceTree = "<group>";
+		};
+		CCB5050E17BC3C6C00B7F433 /* a_2 intermediate res */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5050F17BC3C6C00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg */,
+				CCB5051017BC3C6C00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG */,
+				CCB5051117BC3C6C00B7F433 /* 19BassaeTempleApollo05_jpg.jpg */,
+				CCB5051217BC3C6C00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.jpg */,
+				CCB5051317BC3C6C00B7F433 /* 8 - Palladio Villa Rotunda in Spring.jpg */,
+				CCB5051417BC3C6C00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg */,
+				CCB5051517BC3C6C00B7F433 /* Apollo and Marsyas.jpg */,
+				CCB5051617BC3C6C00B7F433 /* Apollo and muse plate.jpg */,
+				CCB5051717BC3C6C00B7F433 /* bassaetempleapollo.jpg */,
+				CCB5051817BC3C6C00B7F433 /* Niobe-Vase-Color.jpg */,
+				CCB5051917BC3C6C00B7F433 /* PeplosKoreAsArtemis.jpg */,
+				CCB5051A17BC3C6C00B7F433 /* perspectiveheart.jpg */,
+			);
+			path = "a_2 intermediate res";
+			sourceTree = "<group>";
+		};
+		CCB5051B17BC3C6C00B7F433 /* a_3 production ready */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "a_3 production ready";
+			sourceTree = "<group>";
+		};
+		CCB5051C17BC3C6C00B7F433 /* a_4 square cropped versions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5051D17BC3C6C00B7F433 /* sq1_Apollo and Marsyas.jpg */,
+				CCB5051E17BC3C6C00B7F433 /* sq1_Apollo and muse plate.jpg */,
+				CCB5051F17BC3C6C00B7F433 /* sq1_Niobe-Vase-Color.jpg */,
+				CCB5052017BC3C6C00B7F433 /* sq1_Pantheon Interior.jpg */,
+				CCB5052117BC3C6C00B7F433 /* sq1_PeplosKoreAsArtemis.jpg */,
+				CCB5052217BC3C6C00B7F433 /* sq2_Apollo and Marsyas.jpg */,
+				CCB5052317BC3C6C00B7F433 /* sq2_Apollo and muse plate.jpg */,
+				CCB5052417BC3C6C00B7F433 /* sq2_Apollon.jpg */,
+				CCB5052517BC3C6C00B7F433 /* sq2_euergides.jpg */,
+				CCB5052617BC3C6C00B7F433 /* sq2_PeplosKoreAsArtemis.jpg */,
+				CCB5052717BC3C6C00B7F433 /* sq3_Apollo and Marsyas.jpg */,
+				CCB5052817BC3C6C00B7F433 /* sq3_Apollo and muse plate.jpg */,
+				CCB5052917BC3C6C00B7F433 /* sq3_K5.4BApollon.jpg */,
+			);
+			path = "a_4 square cropped versions";
+			sourceTree = "<group>";
+		};
+		CCB5052A17BC3C6C00B7F433 /* a_5 image captions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5052B17BC3C6C00B7F433 /* BILL’S CAPTIONS AND LINKS-1.docx */,
+				CCB5052C17BC3C6C00B7F433 /* obsolete */,
+			);
+			path = "a_5 image captions";
+			sourceTree = "<group>";
+		};
+		CCB5052C17BC3C6C00B7F433 /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5052D17BC3C6C00B7F433 /* BILL’S CAPTIONS AND LINKS.docx */,
+				CCB5052E17BC3C6C00B7F433 /* MULLENEDIT.DOC */,
+			);
+			path = obsolete;
+			sourceTree = "<group>";
+		};
+		CCB5052F17BC3C6C00B7F433 /* 1B  selected texts */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5053017BC3C6C00B7F433 /* b_1 current */,
+			);
+			path = "1B  selected texts";
+			sourceTree = "<group>";
+		};
+		CCB5053017BC3C6C00B7F433 /* b_1 current */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5053117BC3C6C00B7F433 /* FOUR TEXTS FOR TAB APP.docx */,
+			);
+			path = "b_1 current";
+			sourceTree = "<group>";
+		};
+		CCB5053217BC3C6C00B7F433 /* 1C  removed selections */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5053317BC3C6C00B7F433 /* 1H_PgYKfiBtCo8rPxsofgXyThhLGG3Z_uG8Hrt77x8w.jpg */,
+				CCB5053417BC3C6C00B7F433 /* 3 - Lethal Arrows of Apollo and Artemis  .png */,
+				CCB5053517BC3C6C00B7F433 /* 301568.jpg */,
+				CCB5053617BC3C6C00B7F433 /* 785px-Giovanni_Paolo_Panini_-_Interior_of_the_Pantheon,_Rome_-_Google_Art_Project.jpg */,
+				CCB5053717BC3C6C00B7F433 /* 8A-Niobe-Vase-Color.jpg */,
+				CCB5053817BC3C6C00B7F433 /* 95797-004-AEE7105D.jpg */,
+				CCB5053917BC3C6C00B7F433 /* Apollo and Muse.jpeg */,
+				CCB5053A17BC3C6C00B7F433 /* apollo parnopios.jpg */,
+				CCB5053B17BC3C6C00B7F433 /* apollo propios phidias.jpg */,
+				CCB5053C17BC3C6C00B7F433 /* Apollo.jpg */,
+				CCB5053D17BC3C6C00B7F433 /* Apollo_lew.jpg */,
+				CCB5053E17BC3C6C00B7F433 /* Artemis Peplos Kore 2.jpeg */,
+				CCB5053F17BC3C6C00B7F433 /* Baassae with view.jpeg */,
+				CCB5054017BC3C6C00B7F433 /* Balanchine.jpg */,
+				CCB5054117BC3C6C00B7F433 /* Bassae Plan and Interior.jpeg */,
+				CCB5054217BC3C6C00B7F433 /* bassae1347821521065.jpg */,
+				CCB5054317BC3C6C00B7F433 /* c30278-5_Moz_Whel_kids1r.jpg */,
+				CCB5054417BC3C6C00B7F433 /* CqZH8QYmsmfrdI2Oi8v1l3ADbn2k8GJRgVaxNch9dLk.jpg */,
+				CCB5054517BC3C6C00B7F433 /* Death Darts of Artemis and Apollo.jpeg */,
+				CCB5054617BC3C6C00B7F433 /* euergides-2b.jpg */,
+				CCB5054717BC3C6C00B7F433 /* Farrell Mozartian children.jpeg */,
+				CCB5054817BC3C6D00B7F433 /* Farrell Mozartiana.jpeg */,
+				CCB5054917BC3C6D00B7F433 /* farrell mozartiana.jpg */,
+				CCB5054A17BC3C6D00B7F433 /* Farrell young with Mr B.jpeg */,
+				CCB5054B17BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.pages */,
+				CCB5054C17BC3C6D00B7F433 /* getimage-idx.jpg */,
+				CCB5054D17BC3C6D00B7F433 /* Gold Apollo.jpeg */,
+				CCB5054E17BC3C6D00B7F433 /* gold apollo.jpg */,
+				CCB5054F17BC3C6D00B7F433 /* images.jpg */,
+				CCB5055017BC3C6D00B7F433 /* Interior_of_the_Pantheon,_Rome_.jpg */,
+				CCB5055117BC3C6D00B7F433 /* JGoZvxp7I8_qf8Wnj8PJv2pSdj-udjDjBZcSiY7pcBI.jpg */,
+				CCB5055217BC3C6D00B7F433 /* k0ufufWW-zaex7zhAOHBOS6k-mOGsHN2HhtTdFFIAO8.jpg */,
+				CCB5055317BC3C6D00B7F433 /* K5.4Apollon.jpg */,
+				CCB5055417BC3C6D00B7F433 /* K5.4BApollon.jpg */,
+				CCB5055517BC3C6D00B7F433 /* kasseler_apoll_gercke.jpg */,
+				CCB5055617BC3C6D00B7F433 /* Larotonda2009-640x360.jpg */,
+				CCB5055717BC3C6D00B7F433 /* mozartiana_ananiashvili_preghiera_600.jpg */,
+				CCB5055817BC3C6D00B7F433 /* NE_WET7kxPiy1XDSlHVE5VM260NUKnRnCNqaoVRCAyw.jpg */,
+				CCB5055917BC3C6D00B7F433 /* Npuy11CHnDPPpy7eNqmOg_TFmSFFnZ8nv8xiy3eNGv8.jpg */,
+				CCB5055A17BC3C6D00B7F433 /* oX41ZQswtck9V9w2_Nphkh4gI1HHbb1MmHlVpJBs6hE.jpg */,
+				CCB5055B17BC3C6D00B7F433 /* Pantheon Interior.jpg */,
+				CCB5055C17BC3C6D00B7F433 /* perspectiveheart.jpg */,
+				CCB5055D17BC3C6D00B7F433 /* Perugino Apollo and Marsyas.jpeg */,
+				CCB5055E17BC3C6D00B7F433 /* pFEBVhY6KcQnhDvq-rGStDrK3-sa26tlt5wyUSfMaIY.jpg */,
+				CCB5055F17BC3C6D00B7F433 /* pUvLCpCMF5eJU0YiJGh_K3Os58YxYrkvH07Hmi3C41c.jpg */,
+				CCB5056017BC3C6D00B7F433 /* r0G2HVwp1cmAgeSHlokZDhdZ4dTmI2oWqlUGDFw_C4g.jpg */,
+				CCB5056117BC3C6D00B7F433 /* sq1_apollo propios phidias.jpg */,
+				CCB5056217BC3C6D00B7F433 /* sq1_Balanchine.jpg */,
+				CCB5056317BC3C6D00B7F433 /* sq1_euergides.jpg */,
+				CCB5056417BC3C6D00B7F433 /* sq1_farrell mozartiana.jpg */,
+				CCB5056517BC3C6D00B7F433 /* sq1_Villa_Rotonda_front.jpg */,
+				CCB5056617BC3C6D00B7F433 /* sq2_farrell mozartiana.jpg */,
+				CCB5056717BC3C6D00B7F433 /* sq2_villa rotonda.jpg */,
+				CCB5056817BC3C6D00B7F433 /* sq3_farrell mozartiana.jpg */,
+				CCB5056917BC3C6D00B7F433 /* sq4_farrell mozartiana.jpg */,
+				CCB5056A17BC3C6D00B7F433 /* sq5_farrell mozartiana.jpg */,
+				CCB5056B17BC3C6D00B7F433 /* terracotta kylix .jpg */,
+				CCB5056C17BC3C6D00B7F433 /* unidentified_kylix_apollo_and_muse.gif */,
+				CCB5056D17BC3C6D00B7F433 /* Villa Rotonda with trees.JPG */,
+				CCB5056E17BC3C6D00B7F433 /* villa rotonda.jpg */,
+				CCB5056F17BC3C6D00B7F433 /* Villa_Rotonda_front.jpg */,
+				CCB5057017BC3C6D00B7F433 /* VillaRotondaOut-1.jpg */,
+				CCB5057117BC3C6D00B7F433 /* w6x1I9JgxMSKosAzmXPPXVEVV-xk8MY0GhFIxC3Fyz4.jpg */,
+				CCB5057217BC3C6D00B7F433 /* Z3zcFt_aHXPLOQzZ7f_z_d3FhS8TxC11qtX8nSqj_y8.jpg */,
+			);
+			path = "1C  removed selections";
+			sourceTree = "<group>";
+		};
+		CCB5057317BC3C6D00B7F433 /* D  possible image links */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5057417BC3C6D00B7F433 /* apollo and muse links */,
+				CCB5057917BC3C6D00B7F433 /* artemis links */,
+				CCB5058017BC3C6D00B7F433 /* dionysus links */,
+			);
+			path = "D  possible image links";
+			sourceTree = "<group>";
+		};
+		CCB5057417BC3C6D00B7F433 /* apollo and muse links */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5057517BC3C6D00B7F433 /* apollo and kalliope.jpg */,
+				CCB5057617BC3C6D00B7F433 /* apollo musagete.jpg */,
+				CCB5057717BC3C6D00B7F433 /* balanchine 1920s.jpg */,
+				CCB5057817BC3C6D00B7F433 /* Ballets_Russes_Apollon_1928.jpg */,
+			);
+			path = "apollo and muse links";
+			sourceTree = "<group>";
+		};
+		CCB5057917BC3C6D00B7F433 /* artemis links */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5057A17BC3C6D00B7F433 /* abt logo.jpg */,
+				CCB5057B17BC3C6D00B7F433 /* artemis and apollo copy.jpg */,
+				CCB5057C17BC3C6D00B7F433 /* artemis and apollo.jpg */,
+				CCB5057D17BC3C6D00B7F433 /* julie kent artemis lar lubavitch.jpg */,
+				CCB5057E17BC3C6D00B7F433 /* lar_lubovitch.jpg */,
+				CCB5057F17BC3C6D00B7F433 /* parthenon illustration.jpg */,
+			);
+			path = "artemis links";
+			sourceTree = "<group>";
+		};
+		CCB5058017BC3C6D00B7F433 /* dionysus links */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5058117BC3C6D00B7F433 /* apollo and dionysus.pdf */,
+				CCB5058217BC3C6D00B7F433 /* apollo instructs a muse.pdf */,
+				CCB5058317BC3C6D00B7F433 /* artemis with dress and bow.pdf */,
+				CCB5058417BC3C6D00B7F433 /* attic dionysus.jpg */,
+				CCB5058517BC3C6D00B7F433 /* dionysus lausanne.jpg */,
+				CCB5058617BC3C6D00B7F433 /* parthenon illustration.jpg */,
+				CCB5058717BC3C6D00B7F433 /* pavlova in dionysus.jpg */,
+			);
+			path = "dionysus links";
+			sourceTree = "<group>";
+		};
+		CCB5058817BC3C6D00B7F433 /* CONV 2 DANCE AND CLASSICISM */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5058917BC3C6D00B7F433 /* 2A  selected images */,
+				CCB505C917BC3C6D00B7F433 /* 2B selected texts */,
+				CCB505CF17BC3C6D00B7F433 /* 2C removed selections */,
+				CCB505D317BC3C6D00B7F433 /* 2D possible image links */,
+				CCB505D417BC3C6D00B7F433 /* conv2 spiral composed.jpg */,
+				CCB505D517BC3C6D00B7F433 /* conv2 spiral composed.psd */,
+			);
+			path = "CONV 2 DANCE AND CLASSICISM";
+			sourceTree = "<group>";
+		};
+		CCB5058917BC3C6D00B7F433 /* 2A  selected images */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5058A17BC3C6D00B7F433 /* a_1 low res original */,
+				CCB5059C17BC3C6D00B7F433 /* a_2 intermediate res */,
+				CCB505B117BC3C6D00B7F433 /* a_3 production ready */,
+				CCB505B217BC3C6D00B7F433 /* a_4 square cropped versions */,
+				CCB505C517BC3C6D00B7F433 /* a_5 image captions */,
+			);
+			path = "2A  selected images";
+			sourceTree = "<group>";
+		};
+		CCB5058A17BC3C6D00B7F433 /* a_1 low res original */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5058B17BC3C6D00B7F433 /* 1 duncan low orginal.jpg */,
+				CCB5058C17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg */,
+				CCB5058D17BC3C6D00B7F433 /* 10 Shiva as Nataraja .jpg */,
+				CCB5058E17BC3C6D00B7F433 /* 11 temple minerva.jpg */,
+				CCB5058F17BC3C6D00B7F433 /* 2 nureyev source.png */,
+				CCB5059017BC3C6D00B7F433 /* 2 nureyev.jpg */,
+				CCB5059117BC3C6D00B7F433 /* 3 julie kent */,
+				CCB5059717BC3C6D00B7F433 /* 4 Apollo Peter&Suzanne2.jpg */,
+				CCB5059817BC3C6D00B7F433 /* 5 taglioni.png */,
+				CCB5059917BC3C6D00B7F433 /* 6 arabesque low res.jpg */,
+				CCB5059A17BC3C6D00B7F433 /* 7 impressing the czar.jpg */,
+				CCB5059B17BC3C6D00B7F433 /* 8 indian dancer.jpg */,
+			);
+			path = "a_1 low res original";
+			sourceTree = "<group>";
+		};
+		CCB5059117BC3C6D00B7F433 /* 3 julie kent */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5059217BC3C6D00B7F433 /* 2.04.round.jpg */,
+				CCB5059317BC3C6D00B7F433 /* 6a00d8341c4e3853ef010535c9c8c2970b-800wi.jpg */,
+				CCB5059417BC3C6D00B7F433 /* julia kent juliet.jpg */,
+				CCB5059517BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.27.51 PM.png */,
+				CCB5059617BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.30.35 PM.png */,
+			);
+			path = "3 julie kent";
+			sourceTree = "<group>";
+		};
+		CCB5059C17BC3C6D00B7F433 /* a_2 intermediate res */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5059D17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg */,
+				CCB5059E17BC3C6D00B7F433 /* 1 IsadoraDuncan572.jpg */,
+				CCB5059F17BC3C6D00B7F433 /* 11 Minerva.jpg */,
+				CCB505A017BC3C6D00B7F433 /* 12 noh.png */,
+				CCB505A117BC3C6D00B7F433 /* 7 impressczar.jpg */,
+				CCB505A217BC3C6D00B7F433 /* 8 Saisanthosh.jpg */,
+				CCB505A317BC3C6D00B7F433 /* 9 equestrian source.png */,
+				CCB505A417BC3C6D00B7F433 /* 9 equestrian.png */,
+				CCB505A517BC3C6D00B7F433 /* Apollo Peter&Suzanne2.jpg */,
+				CCB505A617BC3C6D00B7F433 /* equestrian.jpg */,
+				CCB505A717BC3C6D00B7F433 /* equestrian.png */,
+				CCB505A817BC3C6D00B7F433 /* impressczar.jpg */,
+				CCB505A917BC3C6D00B7F433 /* julia kent ondine.jpg */,
+				CCB505AA17BC3C6D00B7F433 /* Julie Kent.jpg */,
+				CCB505AB17BC3C6D00B7F433 /* maria taglioni litho.jpg */,
+				CCB505AC17BC3C6D00B7F433 /* noh actor.jpg */,
+				CCB505AD17BC3C6D00B7F433 /* noh dancer.jpg */,
+				CCB505AE17BC3C6D00B7F433 /* nureyev.jpg */,
+				CCB505AF17BC3C6D00B7F433 /* Saisanthosh.jpg */,
+				CCB505B017BC3C6D00B7F433 /* Shiva as Nataraja.jpg */,
+			);
+			path = "a_2 intermediate res";
+			sourceTree = "<group>";
+		};
+		CCB505B117BC3C6D00B7F433 /* a_3 production ready */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "a_3 production ready";
+			sourceTree = "<group>";
+		};
+		CCB505B217BC3C6D00B7F433 /* a_4 square cropped versions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505B317BC3C6D00B7F433 /* 1 Isadora_duncan large square.jpg */,
+				CCB505B417BC3C6D00B7F433 /* 1 square isadora_duncan.jpg */,
+				CCB505B517BC3C6D00B7F433 /* 10 square Shiva as Nataraja.jpg */,
+				CCB505B617BC3C6D00B7F433 /* 11 square Minerva.jpg */,
+				CCB505B717BC3C6D00B7F433 /* 2 square nureyev.jpg */,
+				CCB505B817BC3C6D00B7F433 /* 4 peter and suzanne.jpg */,
+				CCB505B917BC3C6D00B7F433 /* 5 square maria taglioni litho.jpg */,
+				CCB505BA17BC3C6D00B7F433 /* 6 square arabesque.jpg */,
+				CCB505BB17BC3C6D00B7F433 /* 7 square impressczar.jpg */,
+				CCB505BC17BC3C6D00B7F433 /* 8 square Saisanthosh.jpg */,
+				CCB505BD17BC3C6D00B7F433 /* 9 square equestrian.jpg */,
+				CCB505BE17BC3C6D00B7F433 /* julie kent juliet cropped square.jpg */,
+				CCB505BF17BC3C6D00B7F433 /* julie kent juliet square.jpg */,
+				CCB505C017BC3C6D00B7F433 /* julie kent juliet.tiff */,
+				CCB505C117BC3C6D00B7F433 /* not used */,
+			);
+			path = "a_4 square cropped versions";
+			sourceTree = "<group>";
+		};
+		CCB505C117BC3C6D00B7F433 /* not used */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505C217BC3C6D00B7F433 /* sq Julie Kent.jpg */,
+				CCB505C317BC3C6D00B7F433 /* square Julie Kent.jpg */,
+				CCB505C417BC3C6D00B7F433 /* square noh actor.jpg */,
+			);
+			path = "not used";
+			sourceTree = "<group>";
+		};
+		CCB505C517BC3C6D00B7F433 /* a_5 image captions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505C617BC3C6D00B7F433 /* current */,
+				CCB505C817BC3C6D00B7F433 /* obsolete */,
+			);
+			path = "a_5 image captions";
+			sourceTree = "<group>";
+		};
+		CCB505C617BC3C6D00B7F433 /* current */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505C717BC3C6D00B7F433 /* conv 2 captions  */,
+			);
+			path = current;
+			sourceTree = "<group>";
+		};
+		CCB505C817BC3C6D00B7F433 /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = obsolete;
+			sourceTree = "<group>";
+		};
+		CCB505C917BC3C6D00B7F433 /* 2B selected texts */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505CA17BC3C6D00B7F433 /* b_1 current */,
+				CCB505CE17BC3C6D00B7F433 /* b_2 obsolete */,
+			);
+			path = "2B selected texts";
+			sourceTree = "<group>";
+		};
+		CCB505CA17BC3C6D00B7F433 /* b_1 current */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505CB17BC3C6D00B7F433 /* APP TEXTS-1.DOC */,
+				CCB505CC17BC3C6D00B7F433 /* APP TEXTS.DOC */,
+				CCB505CD17BC3C6D00B7F433 /* conv 2 texts JH.pdf */,
+			);
+			path = "b_1 current";
+			sourceTree = "<group>";
+		};
+		CCB505CE17BC3C6D00B7F433 /* b_2 obsolete */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "b_2 obsolete";
+			sourceTree = "<group>";
+		};
+		CCB505CF17BC3C6D00B7F433 /* 2C removed selections */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505D017BC3C6D00B7F433 /* 12 noh actor.png */,
+				CCB505D117BC3C6D00B7F433 /* conv 2 composite.jpg */,
+				CCB505D217BC3C6D00B7F433 /* Julie Kent.png */,
+			);
+			path = "2C removed selections";
+			sourceTree = "<group>";
+		};
+		CCB505D317BC3C6D00B7F433 /* 2D possible image links */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2D possible image links";
+			sourceTree = "<group>";
+		};
+		CCB505D617BC3C6D00B7F433 /* CONV 3 EVOLUTION OF CLASSICISM */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505D717BC3C6D00B7F433 /* 3A  selected images */,
+				CCB5061917BC3C6D00B7F433 /* 3B selected texts */,
+				CCB5061E17BC3C6D00B7F433 /* 3C removed selections */,
+				CCB5062417BC3C6D00B7F433 /* 3D possible image links */,
+			);
+			path = "CONV 3 EVOLUTION OF CLASSICISM";
+			sourceTree = "<group>";
+		};
+		CCB505D717BC3C6D00B7F433 /* 3A  selected images */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505D817BC3C6D00B7F433 /* a_1 low res original */,
+				CCB505E617BC3C6D00B7F433 /* a_2 intermediate res */,
+				CCB505F917BC3C6D00B7F433 /* a_3 production ready */,
+				CCB505FA17BC3C6D00B7F433 /* a_4 square cropped versions */,
+				CCB5061417BC3C6D00B7F433 /* a_5 image captions */,
+			);
+			path = "3A  selected images";
+			sourceTree = "<group>";
+		};
+		CCB505D817BC3C6D00B7F433 /* a_1 low res original */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505D917BC3C6D00B7F433 /* 1-Greek_vase_with_different_sportsmen.jpg */,
+				CCB505DA17BC3C6D00B7F433 /* 10-GB&LK with Lyres.jpg */,
+				CCB505DB17BC3C6D00B7F433 /* 11-Diana_Adams_and_Arthur_Mitchell_rehearsing_Agon-1_Martha Swope.jpg */,
+				CCB505DC17BC3C6D00B7F433 /* 12-Degas-three-dancers-in-an-exercise-hall.jpg!HalfHD.jpg */,
+				CCB505DD17BC3C6D00B7F433 /* 2-Belvedere_Apollo_Pio-Clementino_Inv1015.jpg */,
+				CCB505DE17BC3C6D00B7F433 /* 3-Da_Vinci_Vitruvian_Man.jpg */,
+				CCB505DF17BC3C6D00B7F433 /* 4-POUSSIN-dance-to-the-music-of-time-1634.jpg!Blog.jpg */,
+				CCB505E017BC3C6D00B7F433 /* 5-Louis Apollo_Soleil_bis.jpg */,
+				CCB505E117BC3C6D00B7F433 /* 6-Five_positions_of_dancing_Wilson_1811.jpg */,
+				CCB505E217BC3C6D00B7F433 /* 7-Mercury da Bologna.jpg */,
+				CCB505E317BC3C6D00B7F433 /* 7-Tallchief in Attitude-Swan Lake.jpg */,
+				CCB505E417BC3C6D00B7F433 /* 8-DiaghilevStravinsky.jpg */,
+				CCB505E517BC3C6D00B7F433 /* 9-Nijinsky_faun_carrying_scarf_Baron_de_Meyer_1912.jpg */,
+			);
+			path = "a_1 low res original";
+			sourceTree = "<group>";
+		};
+		CCB505E617BC3C6D00B7F433 /* a_2 intermediate res */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505E717BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen copy.jpg */,
+				CCB505E817BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen.jpg */,
+				CCB505E917BC3C6D00B7F433 /* 10 GB&LK with Lyres.jpg */,
+				CCB505EA17BC3C6D00B7F433 /* 11 adams mitchell agon.jpg */,
+				CCB505EB17BC3C6D00B7F433 /* 12 degas.jpg */,
+				CCB505EC17BC3C6D00B7F433 /* 12 degas.psd */,
+				CCB505ED17BC3C6D00B7F433 /* 2 Belvedere_Apollo.jpg */,
+				CCB505EE17BC3C6D00B7F433 /* 3 Da_Vinci_Vitruvian_Man.jpg */,
+				CCB505EF17BC3C6D00B7F433 /* 4 POUSSIN-dance-to-the-music.jpg */,
+				CCB505F017BC3C6D00B7F433 /* 5 Louis Apollo_Soleil_bis.jpg */,
+				CCB505F117BC3C6D00B7F433 /* 6 Five_positions_of_dancing.jpg */,
+				CCB505F217BC3C6D00B7F433 /* 7 tallchief and mercury.jpg */,
+				CCB505F317BC3C6D00B7F433 /* 7 tallchief and mercury.psd */,
+				CCB505F417BC3C6D00B7F433 /* 8 nijinsky faun 2.jpg */,
+				CCB505F517BC3C6D00B7F433 /* 9 diaghilev_and_stravinsky_spain_1921.jpg */,
+				CCB505F617BC3C6D00B7F433 /* for tallchief composite */,
+			);
+			path = "a_2 intermediate res";
+			sourceTree = "<group>";
+		};
+		CCB505F617BC3C6D00B7F433 /* for tallchief composite */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505F717BC3C6D00B7F433 /* Mercury da Bologna.jpg */,
+				CCB505F817BC3C6D00B7F433 /* Tallchief Swan Lake.jpg */,
+			);
+			path = "for tallchief composite";
+			sourceTree = "<group>";
+		};
+		CCB505F917BC3C6D00B7F433 /* a_3 production ready */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "a_3 production ready";
+			sourceTree = "<group>";
+		};
+		CCB505FA17BC3C6D00B7F433 /* a_4 square cropped versions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB505FB17BC3C6D00B7F433 /* cr1 Apollo-lew christensen.jpg */,
+				CCB505FC17BC3C6D00B7F433 /* cr1 Belvedere_Apollo.jpg */,
+				CCB505FD17BC3C6D00B7F433 /* cr1 Bernini-Apollo-Daphne.jpg */,
+				CCB505FE17BC3C6D00B7F433 /* cr1 Five_positions_of_dancing.jpg */,
+				CCB505FF17BC3C6D00B7F433 /* cr1 Louis Apollo_Soleil_bis.jpg */,
+				CCB5060017BC3C6D00B7F433 /* cr1 POUSSIN-dance-to-the-music.jpg */,
+				CCB5060117BC3C6D00B7F433 /* cr1nijinsky-faun.jpg */,
+				CCB5060217BC3C6D00B7F433 /* cr2 Belvedere_Apollo.jpg */,
+				CCB5060317BC3C6D00B7F433 /* cr2 Bernini-Apollo-Daphne.jpg */,
+				CCB5060417BC3C6D00B7F433 /* cr2 Louis Apollo_Soleil_bis.jpg */,
+				CCB5060517BC3C6D00B7F433 /* cr2 POUSSIN-dance-to-the-music.jpg */,
+				CCB5060617BC3C6D00B7F433 /* cr3 Louis Apollo_Soleil_bis.jpg */,
+				CCB5060717BC3C6D00B7F433 /* sq adams mitchell agon.jpg */,
+				CCB5060817BC3C6D00B7F433 /* sq Mercury da Bologna.jpg */,
+				CCB5060917BC3C6D00B7F433 /* sqdegas.jpg */,
+				CCB5060A17BC3C6D00B7F433 /* square Apollo-lew christensen.jpg */,
+				CCB5060B17BC3C6D00B7F433 /* square Apollo-Terpsichore.jpg */,
+				CCB5060C17BC3C6D00B7F433 /* square Belvedere_Apollo.jpg */,
+				CCB5060D17BC3C6D00B7F433 /* square Bernini-Apollo-Daphne.jpg */,
+				CCB5060E17BC3C6D00B7F433 /* square Da_Vinci_Vitruvian_Man.jpg */,
+				CCB5060F17BC3C6D00B7F433 /* square Five_positions_of_dancing.jpg */,
+				CCB5061017BC3C6D00B7F433 /* square Louis Apollo_Soleil_bis.jpg */,
+				CCB5061117BC3C6D00B7F433 /* square nijinsky-faun.jpg */,
+				CCB5061217BC3C6D00B7F433 /* square POUSSIN-dance-to-the-music.jpg */,
+				CCB5061317BC3C6D00B7F433 /* squareTallchief Swan Lake.jpg */,
+			);
+			path = "a_4 square cropped versions";
+			sourceTree = "<group>";
+		};
+		CCB5061417BC3C6D00B7F433 /* a_5 image captions */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061517BC3C6D00B7F433 /* current */,
+				CCB5061717BC3C6D00B7F433 /* obsolete */,
+			);
+			path = "a_5 image captions";
+			sourceTree = "<group>";
+		};
+		CCB5061517BC3C6D00B7F433 /* current */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061617BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links-1.docx */,
+			);
+			path = current;
+			sourceTree = "<group>";
+		};
+		CCB5061717BC3C6D00B7F433 /* obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061817BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links.docx */,
+			);
+			path = obsolete;
+			sourceTree = "<group>";
+		};
+		CCB5061917BC3C6D00B7F433 /* 3B selected texts */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061A17BC3C6D00B7F433 /* b_1 current */,
+				CCB5061C17BC3C6D00B7F433 /* b_2 obsolete */,
+			);
+			path = "3B selected texts";
+			sourceTree = "<group>";
+		};
+		CCB5061A17BC3C6D00B7F433 /* b_1 current */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061B17BC3C6D00B7F433 /* TEXTS -APP 1-convo 3-1.docx */,
+			);
+			path = "b_1 current";
+			sourceTree = "<group>";
+		};
+		CCB5061C17BC3C6D00B7F433 /* b_2 obsolete */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061D17BC3C6D00B7F433 /* TEXTS -APP 1-convo 3.docx */,
+			);
+			path = "b_2 obsolete";
+			sourceTree = "<group>";
+		};
+		CCB5061E17BC3C6D00B7F433 /* 3C removed selections */ = {
+			isa = PBXGroup;
+			children = (
+				CCB5061F17BC3C6D00B7F433 /* Apollo-lew christensen.jpg */,
+				CCB5062017BC3C6D00B7F433 /* Apollo-Terpsichore.jpg */,
+				CCB5062117BC3C6D00B7F433 /* Bernini-Apollo-Daphne.jpg */,
+				CCB5062217BC3C6D00B7F433 /* nijinsky-faun.jpg */,
+				CCB5062317BC3C6D00B7F433 /* swope.jpg */,
+			);
+			path = "3C removed selections";
+			sourceTree = "<group>";
+		};
+		CCB5062417BC3C6D00B7F433 /* 3D possible image links */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3D possible image links";
+			sourceTree = "<group>";
+		};
+		CCB6D15617D6510D001B4429 /* Source Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Source Images";
+			sourceTree = "<group>";
+		};
+		CCB6D17217D65195001B4429 /* Source Text */ = {
+			isa = PBXGroup;
+			children = (
+				CCB6D17317D651A1001B4429 /* 01 */,
+			);
+			name = "Source Text";
+			sourceTree = "<group>";
+		};
+		CCB6D17317D651A1001B4429 /* 01 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 01;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +1451,257 @@
 				CC898F4117B45502004C6C2D /* Default@2x.png in Resources */,
 				CC898F4317B45502004C6C2D /* Default-568h@2x.png in Resources */,
 				CC898F4617B45502004C6C2D /* MainStoryboard.storyboard in Resources */,
+				CCB5062517BC3C6D00B7F433 /* 1 - Apollo Instructs a Muse.png in Resources */,
+				CCB5062617BC3C6D00B7F433 /* 10 - Perspective with Igor Dancing.jpg in Resources */,
+				CCB5062717BC3C6D00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg in Resources */,
+				CCB5062817BC3C6D00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG in Resources */,
+				CCB5062917BC3C6D00B7F433 /* 2 - Artemis with Dress and Bow.png in Resources */,
+				CCB5062A17BC3C6D00B7F433 /* 3 - Apollo Dionysus.jpg in Resources */,
+				CCB5062B17BC3C6D00B7F433 /* 4 - Perugino Apollo Stared Downat Marsyas.png in Resources */,
+				CCB5062C17BC3C6D00B7F433 /* 5 - Apollo Bassae Looking West.png in Resources */,
+				CCB5062D17BC3C6D00B7F433 /* 6 - Interior Basssae Temple with First Corinthian Column Ever .png in Resources */,
+				CCB5062E17BC3C6D00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.png in Resources */,
+				CCB5062F17BC3C6D00B7F433 /* 8 - Palladio Villa Rotunda in Spring.png in Resources */,
+				CCB5063017BC3C6D00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg in Resources */,
+				CCB5063117BC3C6D00B7F433 /* 11 - Raphael School of Athens with Vanishing Point.jpg in Resources */,
+				CCB5063217BC3C6D00B7F433 /* 12 - Mariinsky_theatre Czar's Box. JPG.JPG in Resources */,
+				CCB5063317BC3C6D00B7F433 /* 19BassaeTempleApollo05_jpg.jpg in Resources */,
+				CCB5063417BC3C6D00B7F433 /* 7 - Pantheon Shaft of Light from  Eye in the Sky.jpg in Resources */,
+				CCB5063517BC3C6D00B7F433 /* 8 - Palladio Villa Rotunda in Spring.jpg in Resources */,
+				CCB5063617BC3C6D00B7F433 /* 9 - Epidauros Theater at Summer Sunset.jpg in Resources */,
+				CCB5063717BC3C6D00B7F433 /* Apollo and Marsyas.jpg in Resources */,
+				CCB5063817BC3C6D00B7F433 /* Apollo and muse plate.jpg in Resources */,
+				CCB5063917BC3C6D00B7F433 /* bassaetempleapollo.jpg in Resources */,
+				CCB5063A17BC3C6D00B7F433 /* Niobe-Vase-Color.jpg in Resources */,
+				CCB5063B17BC3C6D00B7F433 /* PeplosKoreAsArtemis.jpg in Resources */,
+				CCB5063C17BC3C6D00B7F433 /* perspectiveheart.jpg in Resources */,
+				CCB5063D17BC3C6D00B7F433 /* sq1_Apollo and Marsyas.jpg in Resources */,
+				CCB5063E17BC3C6D00B7F433 /* sq1_Apollo and muse plate.jpg in Resources */,
+				CCB5063F17BC3C6D00B7F433 /* sq1_Niobe-Vase-Color.jpg in Resources */,
+				CCB5064017BC3C6D00B7F433 /* sq1_Pantheon Interior.jpg in Resources */,
+				CCB5064117BC3C6D00B7F433 /* sq1_PeplosKoreAsArtemis.jpg in Resources */,
+				CCB5064217BC3C6D00B7F433 /* sq2_Apollo and Marsyas.jpg in Resources */,
+				CCB5064317BC3C6D00B7F433 /* sq2_Apollo and muse plate.jpg in Resources */,
+				CCB5064417BC3C6D00B7F433 /* sq2_Apollon.jpg in Resources */,
+				CCB5064517BC3C6D00B7F433 /* sq2_euergides.jpg in Resources */,
+				CCB5064617BC3C6D00B7F433 /* sq2_PeplosKoreAsArtemis.jpg in Resources */,
+				CCB5064717BC3C6D00B7F433 /* sq3_Apollo and Marsyas.jpg in Resources */,
+				CCB5064817BC3C6D00B7F433 /* sq3_Apollo and muse plate.jpg in Resources */,
+				CCB5064917BC3C6D00B7F433 /* sq3_K5.4BApollon.jpg in Resources */,
+				CCB5064A17BC3C6D00B7F433 /* BILL’S CAPTIONS AND LINKS-1.docx in Resources */,
+				CCB5064B17BC3C6D00B7F433 /* BILL’S CAPTIONS AND LINKS.docx in Resources */,
+				CCB5064C17BC3C6D00B7F433 /* MULLENEDIT.DOC in Resources */,
+				CCB5064D17BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.docx in Resources */,
+				CCB5064E17BC3C6D00B7F433 /* 1H_PgYKfiBtCo8rPxsofgXyThhLGG3Z_uG8Hrt77x8w.jpg in Resources */,
+				CCB5064F17BC3C6D00B7F433 /* 3 - Lethal Arrows of Apollo and Artemis  .png in Resources */,
+				CCB5065017BC3C6D00B7F433 /* 301568.jpg in Resources */,
+				CCB5065117BC3C6D00B7F433 /* 785px-Giovanni_Paolo_Panini_-_Interior_of_the_Pantheon,_Rome_-_Google_Art_Project.jpg in Resources */,
+				CCB5065217BC3C6D00B7F433 /* 8A-Niobe-Vase-Color.jpg in Resources */,
+				CCB5065317BC3C6D00B7F433 /* 95797-004-AEE7105D.jpg in Resources */,
+				CCB5065417BC3C6D00B7F433 /* Apollo and Muse.jpeg in Resources */,
+				CCB5065517BC3C6D00B7F433 /* apollo parnopios.jpg in Resources */,
+				CCB5065617BC3C6D00B7F433 /* apollo propios phidias.jpg in Resources */,
+				CCB5065717BC3C6D00B7F433 /* Apollo.jpg in Resources */,
+				CCB5065817BC3C6D00B7F433 /* Apollo_lew.jpg in Resources */,
+				CCB5065917BC3C6D00B7F433 /* Artemis Peplos Kore 2.jpeg in Resources */,
+				CCB5065A17BC3C6D00B7F433 /* Baassae with view.jpeg in Resources */,
+				CCB5065B17BC3C6D00B7F433 /* Balanchine.jpg in Resources */,
+				CCB5065C17BC3C6D00B7F433 /* Bassae Plan and Interior.jpeg in Resources */,
+				CCB5065D17BC3C6D00B7F433 /* bassae1347821521065.jpg in Resources */,
+				CCB5065E17BC3C6D00B7F433 /* c30278-5_Moz_Whel_kids1r.jpg in Resources */,
+				CCB5065F17BC3C6D00B7F433 /* CqZH8QYmsmfrdI2Oi8v1l3ADbn2k8GJRgVaxNch9dLk.jpg in Resources */,
+				CCB5066017BC3C6D00B7F433 /* Death Darts of Artemis and Apollo.jpeg in Resources */,
+				CCB5066117BC3C6D00B7F433 /* euergides-2b.jpg in Resources */,
+				CCB5066217BC3C6D00B7F433 /* Farrell Mozartian children.jpeg in Resources */,
+				CCB5066317BC3C6D00B7F433 /* Farrell Mozartiana.jpeg in Resources */,
+				CCB5066417BC3C6D00B7F433 /* farrell mozartiana.jpg in Resources */,
+				CCB5066517BC3C6D00B7F433 /* Farrell young with Mr B.jpeg in Resources */,
+				CCB5066617BC3C6D00B7F433 /* FOUR TEXTS FOR TAB APP.pages in Resources */,
+				CCB5066717BC3C6D00B7F433 /* getimage-idx.jpg in Resources */,
+				CCB5066817BC3C6D00B7F433 /* Gold Apollo.jpeg in Resources */,
+				CCB5066917BC3C6D00B7F433 /* gold apollo.jpg in Resources */,
+				CCB5066A17BC3C6D00B7F433 /* images.jpg in Resources */,
+				CCB5066B17BC3C6D00B7F433 /* Interior_of_the_Pantheon,_Rome_.jpg in Resources */,
+				CCB5066C17BC3C6D00B7F433 /* JGoZvxp7I8_qf8Wnj8PJv2pSdj-udjDjBZcSiY7pcBI.jpg in Resources */,
+				CCB5066D17BC3C6D00B7F433 /* k0ufufWW-zaex7zhAOHBOS6k-mOGsHN2HhtTdFFIAO8.jpg in Resources */,
+				CCB5066E17BC3C6D00B7F433 /* K5.4Apollon.jpg in Resources */,
+				CCB5066F17BC3C6D00B7F433 /* K5.4BApollon.jpg in Resources */,
+				CCB5067017BC3C6D00B7F433 /* kasseler_apoll_gercke.jpg in Resources */,
+				CCB5067117BC3C6D00B7F433 /* Larotonda2009-640x360.jpg in Resources */,
+				CCB5067217BC3C6D00B7F433 /* mozartiana_ananiashvili_preghiera_600.jpg in Resources */,
+				CCB5067317BC3C6D00B7F433 /* NE_WET7kxPiy1XDSlHVE5VM260NUKnRnCNqaoVRCAyw.jpg in Resources */,
+				CCB5067417BC3C6D00B7F433 /* Npuy11CHnDPPpy7eNqmOg_TFmSFFnZ8nv8xiy3eNGv8.jpg in Resources */,
+				CCB5067517BC3C6D00B7F433 /* oX41ZQswtck9V9w2_Nphkh4gI1HHbb1MmHlVpJBs6hE.jpg in Resources */,
+				CCB5067617BC3C6D00B7F433 /* Pantheon Interior.jpg in Resources */,
+				CCB5067717BC3C6D00B7F433 /* perspectiveheart.jpg in Resources */,
+				CCB5067817BC3C6D00B7F433 /* Perugino Apollo and Marsyas.jpeg in Resources */,
+				CCB5067917BC3C6D00B7F433 /* pFEBVhY6KcQnhDvq-rGStDrK3-sa26tlt5wyUSfMaIY.jpg in Resources */,
+				CCB5067A17BC3C6D00B7F433 /* pUvLCpCMF5eJU0YiJGh_K3Os58YxYrkvH07Hmi3C41c.jpg in Resources */,
+				CCB5067B17BC3C6D00B7F433 /* r0G2HVwp1cmAgeSHlokZDhdZ4dTmI2oWqlUGDFw_C4g.jpg in Resources */,
+				CCB5067C17BC3C6D00B7F433 /* sq1_apollo propios phidias.jpg in Resources */,
+				CCB5067D17BC3C6D00B7F433 /* sq1_Balanchine.jpg in Resources */,
+				CCB5067E17BC3C6D00B7F433 /* sq1_euergides.jpg in Resources */,
+				CCB5067F17BC3C6D00B7F433 /* sq1_farrell mozartiana.jpg in Resources */,
+				CCB5068017BC3C6D00B7F433 /* sq1_Villa_Rotonda_front.jpg in Resources */,
+				CCB5068117BC3C6D00B7F433 /* sq2_farrell mozartiana.jpg in Resources */,
+				CCB5068217BC3C6D00B7F433 /* sq2_villa rotonda.jpg in Resources */,
+				CCB5068317BC3C6D00B7F433 /* sq3_farrell mozartiana.jpg in Resources */,
+				CCB5068417BC3C6D00B7F433 /* sq4_farrell mozartiana.jpg in Resources */,
+				CCB5068517BC3C6D00B7F433 /* sq5_farrell mozartiana.jpg in Resources */,
+				CCB5068617BC3C6D00B7F433 /* terracotta kylix .jpg in Resources */,
+				CCB5068717BC3C6D00B7F433 /* unidentified_kylix_apollo_and_muse.gif in Resources */,
+				CCB5068817BC3C6D00B7F433 /* Villa Rotonda with trees.JPG in Resources */,
+				CCB5068917BC3C6D00B7F433 /* villa rotonda.jpg in Resources */,
+				CCB5068A17BC3C6D00B7F433 /* Villa_Rotonda_front.jpg in Resources */,
+				CCB5068B17BC3C6D00B7F433 /* VillaRotondaOut-1.jpg in Resources */,
+				CCB5068C17BC3C6D00B7F433 /* w6x1I9JgxMSKosAzmXPPXVEVV-xk8MY0GhFIxC3Fyz4.jpg in Resources */,
+				CCB5068D17BC3C6D00B7F433 /* Z3zcFt_aHXPLOQzZ7f_z_d3FhS8TxC11qtX8nSqj_y8.jpg in Resources */,
+				CCB5068E17BC3C6D00B7F433 /* apollo and kalliope.jpg in Resources */,
+				CCB5068F17BC3C6D00B7F433 /* apollo musagete.jpg in Resources */,
+				CCB5069017BC3C6D00B7F433 /* balanchine 1920s.jpg in Resources */,
+				CCB5069117BC3C6D00B7F433 /* Ballets_Russes_Apollon_1928.jpg in Resources */,
+				CCB5069217BC3C6D00B7F433 /* abt logo.jpg in Resources */,
+				CCB5069317BC3C6D00B7F433 /* artemis and apollo copy.jpg in Resources */,
+				CCB5069417BC3C6D00B7F433 /* artemis and apollo.jpg in Resources */,
+				CCB5069517BC3C6D00B7F433 /* julie kent artemis lar lubavitch.jpg in Resources */,
+				CCB5069617BC3C6D00B7F433 /* lar_lubovitch.jpg in Resources */,
+				CCB5069717BC3C6D00B7F433 /* parthenon illustration.jpg in Resources */,
+				CCB5069817BC3C6D00B7F433 /* apollo and dionysus.pdf in Resources */,
+				CCB5069917BC3C6D00B7F433 /* apollo instructs a muse.pdf in Resources */,
+				CCB5069A17BC3C6D00B7F433 /* artemis with dress and bow.pdf in Resources */,
+				CCB5069B17BC3C6D00B7F433 /* attic dionysus.jpg in Resources */,
+				CCB5069C17BC3C6D00B7F433 /* dionysus lausanne.jpg in Resources */,
+				CCB5069D17BC3C6D00B7F433 /* parthenon illustration.jpg in Resources */,
+				CCB5069E17BC3C6D00B7F433 /* pavlova in dionysus.jpg in Resources */,
+				CCB5069F17BC3C6D00B7F433 /* 1 duncan low orginal.jpg in Resources */,
+				CCB506A017BC3C6D00B7F433 /* 1 Isadora_duncan.jpg in Resources */,
+				CCB506A117BC3C6D00B7F433 /* 10 Shiva as Nataraja .jpg in Resources */,
+				CCB506A217BC3C6D00B7F433 /* 11 temple minerva.jpg in Resources */,
+				CCB506A317BC3C6D00B7F433 /* 2 nureyev source.png in Resources */,
+				CCB506A417BC3C6D00B7F433 /* 2 nureyev.jpg in Resources */,
+				CCB506A517BC3C6D00B7F433 /* 2.04.round.jpg in Resources */,
+				CCB506A617BC3C6D00B7F433 /* 6a00d8341c4e3853ef010535c9c8c2970b-800wi.jpg in Resources */,
+				CCB506A717BC3C6D00B7F433 /* julia kent juliet.jpg in Resources */,
+				CCB506A817BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.27.51 PM.png in Resources */,
+				CCB506A917BC3C6D00B7F433 /* Screen shot 2013-03-08 at 6.30.35 PM.png in Resources */,
+				CCB506AA17BC3C6D00B7F433 /* 4 Apollo Peter&Suzanne2.jpg in Resources */,
+				CCB506AB17BC3C6D00B7F433 /* 5 taglioni.png in Resources */,
+				CCB506AC17BC3C6D00B7F433 /* 6 arabesque low res.jpg in Resources */,
+				CCB506AD17BC3C6D00B7F433 /* 7 impressing the czar.jpg in Resources */,
+				CCB506AE17BC3C6D00B7F433 /* 8 indian dancer.jpg in Resources */,
+				CCB506AF17BC3C6D00B7F433 /* 1 Isadora_duncan.jpg in Resources */,
+				CCB506B017BC3C6D00B7F433 /* 1 IsadoraDuncan572.jpg in Resources */,
+				CCB506B117BC3C6D00B7F433 /* 11 Minerva.jpg in Resources */,
+				CCB506B217BC3C6D00B7F433 /* 12 noh.png in Resources */,
+				CCB506B317BC3C6D00B7F433 /* 7 impressczar.jpg in Resources */,
+				CCB506B417BC3C6D00B7F433 /* 8 Saisanthosh.jpg in Resources */,
+				CCB506B517BC3C6D00B7F433 /* 9 equestrian source.png in Resources */,
+				CCB506B617BC3C6D00B7F433 /* 9 equestrian.png in Resources */,
+				CCB506B717BC3C6D00B7F433 /* Apollo Peter&Suzanne2.jpg in Resources */,
+				CCB506B817BC3C6D00B7F433 /* equestrian.jpg in Resources */,
+				CCB506B917BC3C6D00B7F433 /* equestrian.png in Resources */,
+				CCB506BA17BC3C6D00B7F433 /* impressczar.jpg in Resources */,
+				CCB506BB17BC3C6D00B7F433 /* julia kent ondine.jpg in Resources */,
+				CCB506BC17BC3C6D00B7F433 /* Julie Kent.jpg in Resources */,
+				CCB506BD17BC3C6D00B7F433 /* maria taglioni litho.jpg in Resources */,
+				CCB506BE17BC3C6D00B7F433 /* noh actor.jpg in Resources */,
+				CCB506BF17BC3C6D00B7F433 /* noh dancer.jpg in Resources */,
+				CCB506C017BC3C6D00B7F433 /* nureyev.jpg in Resources */,
+				CCB506C117BC3C6D00B7F433 /* Saisanthosh.jpg in Resources */,
+				CCB506C217BC3C6D00B7F433 /* Shiva as Nataraja.jpg in Resources */,
+				CCB506C317BC3C6D00B7F433 /* 1 Isadora_duncan large square.jpg in Resources */,
+				CCB506C417BC3C6D00B7F433 /* 1 square isadora_duncan.jpg in Resources */,
+				CCB506C517BC3C6D00B7F433 /* 10 square Shiva as Nataraja.jpg in Resources */,
+				CCB506C617BC3C6D00B7F433 /* 11 square Minerva.jpg in Resources */,
+				CCB506C717BC3C6D00B7F433 /* 2 square nureyev.jpg in Resources */,
+				CCB506C817BC3C6D00B7F433 /* 4 peter and suzanne.jpg in Resources */,
+				CCB506C917BC3C6D00B7F433 /* 5 square maria taglioni litho.jpg in Resources */,
+				CCB506CA17BC3C6D00B7F433 /* 6 square arabesque.jpg in Resources */,
+				CCB506CB17BC3C6D00B7F433 /* 7 square impressczar.jpg in Resources */,
+				CCB506CC17BC3C6D00B7F433 /* 8 square Saisanthosh.jpg in Resources */,
+				CCB506CD17BC3C6D00B7F433 /* 9 square equestrian.jpg in Resources */,
+				CCB506CE17BC3C6D00B7F433 /* julie kent juliet cropped square.jpg in Resources */,
+				CCB506CF17BC3C6D00B7F433 /* julie kent juliet square.jpg in Resources */,
+				CCB506D017BC3C6D00B7F433 /* julie kent juliet.tiff in Resources */,
+				CCB506D117BC3C6D00B7F433 /* sq Julie Kent.jpg in Resources */,
+				CCB506D217BC3C6D00B7F433 /* square Julie Kent.jpg in Resources */,
+				CCB506D317BC3C6D00B7F433 /* square noh actor.jpg in Resources */,
+				CCB506D417BC3C6D00B7F433 /* conv 2 captions  in Resources */,
+				CCB506D517BC3C6D00B7F433 /* APP TEXTS-1.DOC in Resources */,
+				CCB506D617BC3C6D00B7F433 /* APP TEXTS.DOC in Resources */,
+				CCB506D717BC3C6D00B7F433 /* conv 2 texts JH.pdf in Resources */,
+				CCB506D817BC3C6D00B7F433 /* 12 noh actor.png in Resources */,
+				CCB506D917BC3C6D00B7F433 /* conv 2 composite.jpg in Resources */,
+				CCB506DA17BC3C6D00B7F433 /* Julie Kent.png in Resources */,
+				CCB506DB17BC3C6D00B7F433 /* conv2 spiral composed.jpg in Resources */,
+				CCB506DC17BC3C6D00B7F433 /* conv2 spiral composed.psd in Resources */,
+				CCB506DD17BC3C6D00B7F433 /* 1-Greek_vase_with_different_sportsmen.jpg in Resources */,
+				CCB506DE17BC3C6D00B7F433 /* 10-GB&LK with Lyres.jpg in Resources */,
+				CCB506DF17BC3C6D00B7F433 /* 11-Diana_Adams_and_Arthur_Mitchell_rehearsing_Agon-1_Martha Swope.jpg in Resources */,
+				CCB506E017BC3C6D00B7F433 /* 12-Degas-three-dancers-in-an-exercise-hall.jpg!HalfHD.jpg in Resources */,
+				CCB506E117BC3C6D00B7F433 /* 2-Belvedere_Apollo_Pio-Clementino_Inv1015.jpg in Resources */,
+				CCB506E217BC3C6D00B7F433 /* 3-Da_Vinci_Vitruvian_Man.jpg in Resources */,
+				CCB506E317BC3C6D00B7F433 /* 4-POUSSIN-dance-to-the-music-of-time-1634.jpg!Blog.jpg in Resources */,
+				CCB506E417BC3C6D00B7F433 /* 5-Louis Apollo_Soleil_bis.jpg in Resources */,
+				CCB506E517BC3C6D00B7F433 /* 6-Five_positions_of_dancing_Wilson_1811.jpg in Resources */,
+				CCB506E617BC3C6D00B7F433 /* 7-Mercury da Bologna.jpg in Resources */,
+				CCB506E717BC3C6D00B7F433 /* 7-Tallchief in Attitude-Swan Lake.jpg in Resources */,
+				CCB506E817BC3C6D00B7F433 /* 8-DiaghilevStravinsky.jpg in Resources */,
+				CCB506E917BC3C6D00B7F433 /* 9-Nijinsky_faun_carrying_scarf_Baron_de_Meyer_1912.jpg in Resources */,
+				CCB506EA17BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen copy.jpg in Resources */,
+				CCB506EB17BC3C6D00B7F433 /* 1 Greek_vase_with_different_sportsmen.jpg in Resources */,
+				CCB506EC17BC3C6D00B7F433 /* 10 GB&LK with Lyres.jpg in Resources */,
+				CCB506ED17BC3C6D00B7F433 /* 11 adams mitchell agon.jpg in Resources */,
+				CCB506EE17BC3C6D00B7F433 /* 12 degas.jpg in Resources */,
+				CCB506EF17BC3C6D00B7F433 /* 12 degas.psd in Resources */,
+				CCB506F017BC3C6D00B7F433 /* 2 Belvedere_Apollo.jpg in Resources */,
+				CCB506F117BC3C6D00B7F433 /* 3 Da_Vinci_Vitruvian_Man.jpg in Resources */,
+				CCB506F217BC3C6D00B7F433 /* 4 POUSSIN-dance-to-the-music.jpg in Resources */,
+				CCB506F317BC3C6D00B7F433 /* 5 Louis Apollo_Soleil_bis.jpg in Resources */,
+				CCB506F417BC3C6D00B7F433 /* 6 Five_positions_of_dancing.jpg in Resources */,
+				CCB506F517BC3C6D00B7F433 /* 7 tallchief and mercury.jpg in Resources */,
+				CCB506F617BC3C6D00B7F433 /* 7 tallchief and mercury.psd in Resources */,
+				CCB506F717BC3C6D00B7F433 /* 8 nijinsky faun 2.jpg in Resources */,
+				CCB506F817BC3C6D00B7F433 /* 9 diaghilev_and_stravinsky_spain_1921.jpg in Resources */,
+				CCB506F917BC3C6D00B7F433 /* Mercury da Bologna.jpg in Resources */,
+				CCB506FA17BC3C6D00B7F433 /* Tallchief Swan Lake.jpg in Resources */,
+				CCB506FB17BC3C6D00B7F433 /* cr1 Apollo-lew christensen.jpg in Resources */,
+				CCB506FC17BC3C6D00B7F433 /* cr1 Belvedere_Apollo.jpg in Resources */,
+				CCB506FD17BC3C6D00B7F433 /* cr1 Bernini-Apollo-Daphne.jpg in Resources */,
+				CCB506FE17BC3C6D00B7F433 /* cr1 Five_positions_of_dancing.jpg in Resources */,
+				CCB506FF17BC3C6D00B7F433 /* cr1 Louis Apollo_Soleil_bis.jpg in Resources */,
+				CCB5070017BC3C6D00B7F433 /* cr1 POUSSIN-dance-to-the-music.jpg in Resources */,
+				CCB5070117BC3C6D00B7F433 /* cr1nijinsky-faun.jpg in Resources */,
+				CCB5070217BC3C6D00B7F433 /* cr2 Belvedere_Apollo.jpg in Resources */,
+				CCB5070317BC3C6D00B7F433 /* cr2 Bernini-Apollo-Daphne.jpg in Resources */,
+				CCB5070417BC3C6D00B7F433 /* cr2 Louis Apollo_Soleil_bis.jpg in Resources */,
+				CCB5070517BC3C6D00B7F433 /* cr2 POUSSIN-dance-to-the-music.jpg in Resources */,
+				CCB5070617BC3C6D00B7F433 /* cr3 Louis Apollo_Soleil_bis.jpg in Resources */,
+				CCB5070717BC3C6D00B7F433 /* sq adams mitchell agon.jpg in Resources */,
+				CCB5070817BC3C6D00B7F433 /* sq Mercury da Bologna.jpg in Resources */,
+				CCB5070917BC3C6D00B7F433 /* sqdegas.jpg in Resources */,
+				CCB5070A17BC3C6D00B7F433 /* square Apollo-lew christensen.jpg in Resources */,
+				CCB5070B17BC3C6D00B7F433 /* square Apollo-Terpsichore.jpg in Resources */,
+				CCB5070C17BC3C6D00B7F433 /* square Belvedere_Apollo.jpg in Resources */,
+				CCB5070D17BC3C6D00B7F433 /* square Bernini-Apollo-Daphne.jpg in Resources */,
+				CCB5070E17BC3C6D00B7F433 /* square Da_Vinci_Vitruvian_Man.jpg in Resources */,
+				CCB5070F17BC3C6D00B7F433 /* square Five_positions_of_dancing.jpg in Resources */,
+				CCB5071017BC3C6D00B7F433 /* square Louis Apollo_Soleil_bis.jpg in Resources */,
+				CCB5071117BC3C6D00B7F433 /* square nijinsky-faun.jpg in Resources */,
+				CCB5071217BC3C6D00B7F433 /* square POUSSIN-dance-to-the-music.jpg in Resources */,
+				CCB5071317BC3C6D00B7F433 /* squareTallchief Swan Lake.jpg in Resources */,
+				CCB5071417BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links-1.docx in Resources */,
+				CCB5071517BC3C6D00B7F433 /* CLASSICAPP3 - Captions & Links.docx in Resources */,
+				CCB5071617BC3C6D00B7F433 /* TEXTS -APP 1-convo 3-1.docx in Resources */,
+				CCB5071717BC3C6D00B7F433 /* TEXTS -APP 1-convo 3.docx in Resources */,
+				CCB5071817BC3C6D00B7F433 /* Apollo-lew christensen.jpg in Resources */,
+				CCB5071917BC3C6D00B7F433 /* Apollo-Terpsichore.jpg in Resources */,
+				CCB5071A17BC3C6D00B7F433 /* Bernini-Apollo-Daphne.jpg in Resources */,
+				CCB5071B17BC3C6D00B7F433 /* nijinsky-faun.jpg in Resources */,
+				CCB5071C17BC3C6D00B7F433 /* swope.jpg in Resources */,
+				CCB5071E17BC426400B7F433 /* subjectView_1.jpg in Resources */,
+				CCCD98E717BDB9D6003AFDF8 /* classicismBackground.jpg in Resources */,
+				CCACEA5517D6A7C400CECB35 /* CCoverflowTitleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +1739,14 @@
 				CC898F3917B45502004C6C2D /* main.m in Sources */,
 				CC898F3D17B45502004C6C2D /* AppDelegate.m in Sources */,
 				CC898F4917B45502004C6C2D /* ViewController.m in Sources */,
+				CCB504FD17BC3A5300B7F433 /* SubjectViewController.m in Sources */,
+				CCACEA4B17D6A6C700CECB35 /* CBetterCollectionViewCell.m in Sources */,
+				CCACEA4C17D6A6C700CECB35 /* CBetterCollectionViewLayoutAttributes.m in Sources */,
+				CCACEA4D17D6A6C700CECB35 /* CCoverflowCollectionViewLayout.m in Sources */,
+				CCACEA4E17D6A6C700CECB35 /* CInterpolator.mm in Sources */,
+				CCACEA4F17D6A6C700CECB35 /* CReflectionView.m in Sources */,
+				CCACEA5017D6A6C700CECB35 /* Interpolator.cpp in Sources */,
+				CCACEA5317D6A7B400CECB35 /* CCoverflowTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +1755,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC898F5E17B45502004C6C2D /* BalletSocietyTests.m in Sources */,
+				CCACEA5817D6A96B00CECB35 /* CDemoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +1930,7 @@
 				CC898F6317B45502004C6C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC898F6417B45502004C6C2D /* Build configuration list for PBXNativeTarget "BalletSocietyTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +1939,7 @@
 				CC898F6617B45502004C6C2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
