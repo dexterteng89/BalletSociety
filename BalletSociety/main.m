@@ -9,10 +9,13 @@
 #import <UIKit/UIKit.h>
 
 #import "AppDelegate.h"
+#import "CDemoCollectionViewCell.h"
 
 int main(int argc, char *argv[])
 {
+    [CDemoCollectionViewCell class];
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
+    
 }

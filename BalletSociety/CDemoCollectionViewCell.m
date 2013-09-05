@@ -5,4 +5,6 @@
 #import "CBetterCollectionViewLayoutAttributes.h"
 
 @implementation CDemoCollectionViewCell
+
+
 @end

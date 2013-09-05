@@ -32,11 +32,10 @@
 
 - (void)viewDidLoad
 {
-    [self setBackgroundAsImageNamed:@"subjectView_1.jpg"];
-    
     
     [super viewDidLoad];
-
+    
+    [self setBackgroundAsImageNamed:@"subjectView_1.jpg"];
     
 }
 

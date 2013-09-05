@@ -16,7 +16,8 @@
 #import "CCoverflowCollectionViewLayout.h"
 #import "CReflectionView.h"
 
-@interface SubjectViewController () <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
+@interface SubjectViewController ()
+
 @property (readwrite, nonatomic, strong) ALAssetsLibrary *assetsLibrary;
 @property (readwrite, nonatomic, assign) NSInteger cellCount;
 @property (readwrite, nonatomic, strong) NSArray *assets;
@@ -31,7 +32,6 @@
 {
     
     [super viewDidLoad];
-    
     self.cellCount = 10;
 	self.imageCache = [[NSCache alloc] init];
     
@@ -40,11 +40,14 @@
 	NSMutableArray *theAssets = [NSMutableArray array];
 	NSURL *theURL = [[[NSBundle mainBundle] resourceURL] URLByAppendingPathComponent:@"Images"];
 	NSEnumerator *theEnumerator = [[NSFileManager defaultManager] enumeratorAtURL:theURL includingPropertiesForKeys:NULL options:NSDirectoryEnumerationSkipsPackageDescendants | NSDirectoryEnumerationSkipsHiddenFiles errorHandler:NULL];
-	for (theURL in theEnumerator)
+    
+    for (theURL in theEnumerator)
     {
 		if ([[theURL pathExtension] isEqualToString:@"jpg"])
         {
 			[theAssets addObject:theURL];
+            NSLog(@"hello");
+
         }
     }
 	self.assets = theAssets;
@@ -56,7 +59,7 @@
 - (void)updateTitle
 {
     // Asking a collection view for indexPathForItem inside a scrollViewDidScroll: callback seems unreliable.
-    //	NSIndexPath *theIndexPath = [self.collectionView indexPathForItemAtPoint:(CGPoint){ CGRectGetMidX(self.collectionView.frame) + self.collectionView.contentOffset.x, CGRectGetMidY(self.collectionView.frame) }];
+    //NSIndexPath *theIndexPath = [self.collectionView indexPathForItemAtPoint:(CGPoint){ CGRectGetMidX(self.collectionView.frame) + self.collectionView.contentOffset.x, CGRectGetMidY(self.collectionView.frame) }];
 	NSIndexPath *theIndexPath = ((CCoverflowCollectionViewLayout *)self.collectionView.collectionViewLayout).currentIndexPath;
 	if (theIndexPath == NULL)
     {
