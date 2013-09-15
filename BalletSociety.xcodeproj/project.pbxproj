@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CC6C51EC17D8345400BC2685 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = CC6C51EB17D8345400BC2685 /* Images */; };
 		CC6C51F217D83D9500BC2685 /* CDemoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CCACEA5717D6A96B00CECB35 /* CDemoCollectionViewCell.m */; };
 		CC898F2D17B45502004C6C2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC898F2C17B45502004C6C2D /* UIKit.framework */; };
 		CC898F2F17B45502004C6C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC898F2E17B45502004C6C2D /* Foundation.framework */; };
@@ -36,6 +35,7 @@
 		CCACEA5A17D6AA4200CECB35 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCACEA5917D6AA4200CECB35 /* AssetsLibrary.framework */; };
 		CCACEA5C17D6AA4900CECB35 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCACEA5B17D6AA4900CECB35 /* QuartzCore.framework */; };
 		CCB504FD17BC3A5300B7F433 /* SubjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB504FC17BC3A5300B7F433 /* SubjectViewController.m */; };
+		CCEA852917E02D7800F706D1 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = CCEA852817E02D7800F706D1 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CC6C51EB17D8345400BC2685 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		CC898F2917B45502004C6C2D /* BalletSociety.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BalletSociety.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC898F2C17B45502004C6C2D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CC898F2E17B45502004C6C2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +92,7 @@
 		CCACEA5B17D6AA4900CECB35 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CCB504FB17BC3A5300B7F433 /* SubjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectViewController.h; sourceTree = "<group>"; };
 		CCB504FC17BC3A5300B7F433 /* SubjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectViewController.m; sourceTree = "<group>"; };
+		CCEA852817E02D7800F706D1 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = BalletSociety/Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +124,7 @@
 		CC898F2017B45502004C6C2D = {
 			isa = PBXGroup;
 			children = (
+				CCEA852817E02D7800F706D1 /* Resources */,
 				CCACEA3E17D6A6C700CECB35 /* Coverflow */,
 				CC898F3217B45502004C6C2D /* BalletSociety */,
 				CC898F5617B45502004C6C2D /* BalletSocietyTests */,
@@ -169,7 +170,6 @@
 				CCB504FC17BC3A5300B7F433 /* SubjectViewController.m */,
 				CC898F4717B45502004C6C2D /* ViewController.h */,
 				CC898F4817B45502004C6C2D /* ViewController.m */,
-				CC6C51EB17D8345400BC2685 /* Images */,
 				CC898F3317B45502004C6C2D /* Supporting Files */,
 			);
 			path = BalletSociety;
@@ -299,13 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCEA852917E02D7800F706D1 /* Resources in Resources */,
 				CC898F3717B45502004C6C2D /* InfoPlist.strings in Resources */,
 				CC898F3F17B45502004C6C2D /* Default.png in Resources */,
 				CC898F4117B45502004C6C2D /* Default@2x.png in Resources */,
 				CC898F4317B45502004C6C2D /* Default-568h@2x.png in Resources */,
 				CC898F4617B45502004C6C2D /* MainStoryboard.storyboard in Resources */,
 				CCACEA5517D6A7C400CECB35 /* CCoverflowTitleView.xib in Resources */,
-				CC6C51EC17D8345400BC2685 /* Images in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +466,7 @@
 				GCC_PREFIX_HEADER = "BalletSociety/BalletSociety-Prefix.pch";
 				INFOPLIST_FILE = "BalletSociety/BalletSociety-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -477,6 +478,7 @@
 				GCC_PREFIX_HEADER = "BalletSociety/BalletSociety-Prefix.pch";
 				INFOPLIST_FILE = "BalletSociety/BalletSociety-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

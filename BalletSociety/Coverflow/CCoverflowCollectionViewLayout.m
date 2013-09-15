@@ -42,7 +42,7 @@
 
 - (void)setup
 	{
-    self.cellSize = (CGSize){ 200.0f, 300.0f };
+    self.cellSize = (CGSize){ 200.0f, 400.0f };
     self.cellSpacing = 40.0f;
 	self.snapToCells = YES;
 
